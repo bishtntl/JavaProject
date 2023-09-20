@@ -12,7 +12,7 @@ function HollyWood() {
                     return (
                         <div className="hollydata" key={index}>
                             <h1 className="headingholly">{item.name}</h1>
-                            <NavLink className='navlinktwo' to={`/details/${item.id}` }>   <img src={item.image}  className="imagehollytop" alt="error" /></NavLink>
+                            <NavLink className='navlinktwo' to={`/details/${item.id}` }><img src={item.image}  className="imagehollytop" alt="error" /></NavLink>
                             <p className="hollypara">{item.para.slice(0, 190)}...</p>
                         </div>
                     )

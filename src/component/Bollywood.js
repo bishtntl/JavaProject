@@ -15,7 +15,7 @@ const BollyWood = () => {
                     return (
                         <div className="bollydata" key={index} >
                             <h1 className="headingbolly">{item.name}</h1>
-                            <NavLink className='navlinktwo' to={`/details/${item.id}` }>     <img src={item.image} className="imagebollytop" alt="error"/></NavLink>
+                            <NavLink className='navlinktwo' to={`/details/${item.id}` }><img src={item.image} className="imagebollytop" alt={item.error}/></NavLink>
                             <p className="bollypara">{item.para.slice(0, 190)}...</p>
                         </div>
                     )
@@ -33,7 +33,7 @@ const BollyWood = () => {
                         return (
                          <div key={index} className="bollyunderdiv">
                                 <h1 className="underdivheading">{item.name}</h1>
-                                <NavLink className='navlinktwo' to={`/details/${item.id}` }><img src={item.image} className="underdivimage" alt="error" /></NavLink>
+                                <NavLink className='navlinktwo' to={`/details/${item.id}` }><img src={item.image} className="underdivimage" alt={item.error}/></NavLink>
                                 <p className="underdivpara">{item.para.slice(0, 300)}</p>
                             </div> 
                         )
@@ -49,7 +49,7 @@ const BollyWood = () => {
 
 
                                 <h1 className="underdivheadingtwo">{item.name}</h1>
-                                <NavLink className='navlinktwo' to={`/details/${item.id}` }>  <img className="underdivimagetwo" src={item.image} alt="error"/></NavLink>
+                                <NavLink className='navlinktwo' to={`/details/${item.id}` }>  <img className="underdivimagetwo" src={item.image} alt={item.error}/></NavLink>
                                 <p className="underdivparatwo" >{item.para.slice(0, 105)}...
                                 <h3>{index +1}</h3></p>
 
@@ -77,10 +77,10 @@ const BollyWood = () => {
 
 
 
-<img className="logoone phone" src="https://tse2.mm.bing.net/th?id=OIP.MT6QS99KpW4roKRd3i1G7QHaHa&pid=Api&P=0&h=180"></img><span className="pho">123467890</span>
+<img className="logoone phone" src="https://tse2.mm.bing.net/th?id=OIP.MT6QS99KpW4roKRd3i1G7QHaHa&pid=Api&P=0&h=180" alt="error"/><span className="pho">123467890</span>
 
 
-<img className="logoone mail" src="https://cdn5.vectorstock.com/i/1000x1000/12/04/mail-icon-in-flat-style-email-symbol-in-flat-style-vector-28061204.jpg"></img><span className="email">balambisht467@gmail.com</span>
+<img className="logoone mail" src="https://cdn5.vectorstock.com/i/1000x1000/12/04/mail-icon-in-flat-style-email-symbol-in-flat-style-vector-28061204.jpg" alt="error"/><span className="email">balambisht467@gmail.com</span>
 
 </div>
 
