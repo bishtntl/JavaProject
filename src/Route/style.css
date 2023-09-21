@@ -89,8 +89,8 @@ h3{
 .imagetopone {
     position: absolute;
     height: 37vh;
-    width: 35vw;
-    left: 1150px;
+    width: 38vw;
+    left: 900px;
     top: 40px;
     border-radius: 20px;
 
@@ -99,8 +99,8 @@ h3{
 .imagetoptwo {
     position: absolute;
     height: 77vh;
-    width: 50vw;
-    left: 80px;
+    width: 52vw;
+    left:50px;
     top: 40px;
     border-radius: 20px;
 
@@ -110,9 +110,9 @@ h3{
 .imagetopthree {
     position: absolute;
     height: 37vh;
-    width: 35vw;
-    left: 1150px;
-    top: 425px;
+    width: 38vw;
+    left: 900px;
+    top: 335px;
     border-radius: 20px;
 
 }
@@ -121,7 +121,7 @@ h3{
     display: flex;
     justify-content: space-around;
     /* align-items: center; */
-    margin-top: 250px;
+    margin-top:5vh;
 
     /* border: 2px solid black; */
 }
@@ -159,7 +159,7 @@ h3{
 .latest {
     position: relative;
     left: 40px;
-    top: 20vh;
+    top: 1vh;
     width: 400px;
     font-size: 3em;
 }
