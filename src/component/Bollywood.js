@@ -32,9 +32,9 @@ const BollyWood = () => {
                     {bollydata.filter((item) => item.category==='BollyWood').map((item, index) => {
                         return (
                          <div key={index} className="bollyunderdiv">
-                                <h1 className="underdivheading">{item.name}</h1>
-                                <NavLink className='navlinktwo' to={`/details/${item.id}` }><img src={item.image} className="underdivimage" alt={item.error}/></NavLink>
-                                <p className="underdivpara">{item.para.slice(0, 300)}</p>
+                                <h1 className="underdivheadingbolly">{item.name}</h1>
+                                <NavLink className='navlinktwo' to={`/details/${item.id}` }><img src={item.image} className="underdivimagebolly" alt={item.error}/></NavLink>
+                                <p className="underdivparabolly">{item.para.slice(0, 300)}</p>
                             </div> 
                         )
                     })}
@@ -45,12 +45,12 @@ const BollyWood = () => {
                     <h2 className="bollytoppost">Top Postes</h2>
                     {bollydata.filter((item) => item.id >=1 && item.id < 15).map((item, index) => {
                         return (
-                            <div key={index} className="underdivtwo">
+                            <div key={index} className="underdivtwobolly">
 
 
-                                <h1 className="underdivheadingtwo">{item.name}</h1>
-                                <NavLink className='navlinktwo' to={`/details/${item.id}` }>  <img className="underdivimagetwo" src={item.image} alt={item.error}/></NavLink>
-                                <p className="underdivparatwo" >{item.para.slice(0, 105)}...
+                                <h1 className="underdivheadingtwobolly">{item.name}</h1>
+                                <NavLink className='navlinktwo' to={`/details/${item.id}` }>  <img className="underdivimagetwobolly" src={item.image} alt={item.error}/></NavLink>
+                                <p className="underdivparatwobolly" >{item.para.slice(0, 105)}...
                                 <h3>{index +1}</h3></p>
 
 
@@ -58,7 +58,7 @@ const BollyWood = () => {
                         )
 
                     })}
-                    <div className="advissment">Advertisement</div>
+                    <div className="advissmentbolly">Advertisement</div>
                 </div>
 
 

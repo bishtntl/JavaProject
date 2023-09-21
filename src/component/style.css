@@ -5,6 +5,8 @@
     margin: auto;
     /* border: 2px solid black; */
     width: 60vw;
+    height: 80vh;
+    border: 2px solid black;
     box-shadow: 2px 2px 10px solid black;   
 
 }
@@ -27,4 +29,41 @@
 }
 .detailpara{
     width: 80vh;
+}
+
+@media screen and (min-width:300px) and (max-width:500px) {
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        /* border: 2px solid black; */
+        width: 60vw;
+        height: 80vh;
+        border: 2px solid black;
+        box-shadow: 2px 2px 10px solid black;   
+    
+    }
+    .detailinnerdiv{
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-weight: bold;
+        /* border: 12px solid black; */
+        box-shadow: 2px 2px 10px solid black; 
+    }
+    .detailheading{
+        font-size: 4em;
+    }
+    .detailimage{
+        height: 40vh;
+        border-radius: 20px;
+    }
+    .detailpara{
+        width: 80vh;
+    }
+    
+    
 }

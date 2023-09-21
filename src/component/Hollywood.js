@@ -12,7 +12,7 @@ function HollyWood() {
                     return (
                         <div className="hollydata" key={index}>
                             <h1 className="headingholly">{item.name}</h1>
-                            <NavLink className='navlinktwo' to={`/details/${item.id}` }><img src={item.image}  className="imagehollytop" alt="error" /></NavLink>
+                            <NavLink className='navlinktwo' to={`/details/${item.id}` }><img src={item.image}  className="imagehollytop" alt="Not Found" /></NavLink>
                             <p className="hollypara">{item.para.slice(0, 190)}...</p>
                         </div>
                     )
@@ -32,7 +32,7 @@ function HollyWood() {
                         return (
                             <div key={index} className="hollyunderdiv">
                                <h1 className="underdivheading">{item.name}</h1>  
-                               <NavLink className='navlinktwo' to={`/details/${item.id}` }>       <img src={item.image} className="underdivimage" alt="error"/></NavLink>
+                               <NavLink className='navlinktwo' to={`/details/${item.id}` }>       <img src={item.image} className="underdivimage" alt="Not Found"/></NavLink>
                                 <p className="underdivpara">{item.para.slice(0,400)}</p>
                             </div>
                         )
@@ -46,15 +46,15 @@ function HollyWood() {
                         return (
                             <div key={index} className="underdivtwo">
                                 <h1 className="underdivheadingtwo">{item.name.slice(0,10)}</h1>
-                                <NavLink className='navlinktwo' to={`/details/${item.id}` }>      <img className="underdivimagetwo" src={item.image} alt="error"/></NavLink>
-                                <p className="underdivparatwo" >{item.para.slice(0,105)}... <h3>{index +1}</h3></p>
+                                <NavLink className='navlinktwo' to={`/details/${item.id}` }>      <img className="underdivimagetwo" src={item.image} alt="Not Found"/></NavLink>
+                                <p className="underdivparatwo" >{item.para.slice(0,105)}... <span>{index +1}</span></p>
 
 
                             </div>
                         )
 
                     })}
-                      <div className="advissment">Advertisement</div>
+                      <div className="advissmentholly">Advertisement</div>
                 </div>
                
               

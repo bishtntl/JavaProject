@@ -27,9 +27,9 @@ function Food() {
                     {fooddata.filter((item) => item.category === 'Food').map((item, index) => {
                         return (
                             <div key={index} className="foodunderdiv">
-                                <h1 className="underdivheading">{item.name}</h1>
-                                <NavLink className='navlinktwo' to={`/details/${item.id}` }>  <img src={item.image} className="underdivimage"alt="error" /></NavLink>
-                                <p className="underdivpara">{item.para}</p>
+                                <h1 className="underdivheadingfood">{item.name}</h1>
+                                <NavLink className='navlinktwo' to={`/details/${item.id}` }>  <img src={item.image} className="underdivimagefood"alt="error" /></NavLink>
+                                <p className="underdivparafood">{item.para}</p>
                             </div>
                         )
                     })}
@@ -40,17 +40,17 @@ function Food() {
                     <h2 className="foodtoppost"> Top Postes</h2>
                     {fooddata.filter((item) => item.id >=46 && item.id < 61).map((item, index) => {
                         return (
-                            <div key={index} className="underdivtwo">
-                                <h1 className="underdivheadingtwo">{item.name}</h1>
-                                <NavLink className='navlinktwo' to={`/details/${item.id}` }>   <img className="underdivimagetwo" src={item.image} alt="error"/></NavLink>
-                                <p className="underdivparatwo" >{item.para.slice(0, 105)}... <h3>{index +1}</h3></p>
+                            <div key={index} className="underdivtwofood">
+                                <h1 className="underdivheadingtwofood">{item.name}</h1>
+                                <NavLink className='navlinktwo' to={`/details/${item.id}` }>   <img className="underdivimagetwofood" src={item.image} alt="error"/></NavLink>
+                                <p className="underdivparatwofood" >{item.para.slice(0, 105)}... <h3>{index +1}</h3></p>
 
 
                             </div>
                         )
 
                     })}
-                    <div className="advissment">Advertisement</div>
+                    <div className="advissmentfood">Advertisement</div>
                 </div>
 
 
@@ -61,7 +61,7 @@ function Food() {
 
 
 
-            <div className="footer">
+            <div className="footerfood">
 
 
 <img className="logo" src="https://1000logos.net/wp-content/uploads/2016/11/Facebook-logo.png" alt="error"/>

@@ -15,8 +15,9 @@ function Display(){
 
     return(
 <>
-
+<div className="navbar">
     <span className="route">The</span><span style={{fontSize:'3em' ,fontWeight:'bolder',fontFamily:'Georgia, Times New Roman, Times, serif',position:'relative',left:'45vw'}}>Siren</span>
+    </div>
  
 <BrowserRouter>
 <div className="box">

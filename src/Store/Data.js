@@ -459,7 +459,7 @@ error:"page is not found"
    id:50,
    name:'Paratha',
    category:'Food',
-   image:'https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347396/india-food-naan/india-food-naan-1120x732.jpg',
+   image:'https://www.manjulaskitchen.com/wp-content/uploads/pizza_paratha.jpg',
    para:'Paratha is a flaky, layered, golden-brown Indian bread, which is typically consumed for breakfast. It consists of whole wheat flour that’s baked in ghee, Indian clarified butter, and comes in round, triangular, square, or hexagonal shapes.   Very often, parathas are stuffed with ingredients such as boiled potatoes, cauliflower, garlic, ginger, chili, paneer, or radish. They are sometimes accompanied by pickles, yogurt, homemade chutneys, and occasionally served as a side to meat and vegetable curries. In Punjab, paratha is eaten with lassi, a popular yogurt-based drink.',
    error:"page is not found"
 },
@@ -494,7 +494,7 @@ error:"page is not found"
     id:54,
     name:'Dal Tadka',
     category:'Food',
-    image:'https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347401/india-food-masala-dosa/india-food-masala-dosa-1120x732.jpg',
+    image:'https://tse3.mm.bing.net/th?id=OIP.vC-_CxuFhC1YHcdBhPDkjQHaF8&pid=Api&P=0&h=180',
     para:'This classic lentil-based dish originates from the northern parts of India. Although there are variations, the dish is usually prepared with toor dal (split yellow peas), garlic, ginger, onions, tomatoes, garam masala, red chili peppers, ghee, cumin, coriander, turmeric, and fenugreek leaves. Once prepared, dal tadka is usually garnished with coriander leaves and served hot with jeera rice and roti on the side.',
     error:"page is not found"
 
@@ -676,7 +676,7 @@ error:"page is not found"
 {
     id:76,
     // name:'',
-    image:'https://i.ytimg.com/vi/QAEkdpAWzGU/maxresdefault.jpg',
+    image:'https://i.ytimg.com/vi/rDBLh9mTfKE/maxresdefault.jpg',
     error:"page is not found"
     // category:'',
     // para:''
