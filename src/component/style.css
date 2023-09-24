@@ -59,7 +59,8 @@
     border-radius: 20px;
 }
 .btngoback{
-    width: 20vw;
+    width: 30vw;
+   height: 10vh;
 }
 .btngoback:hover{
     background-color: blue;
@@ -118,7 +119,7 @@
 .footermain {
     /* background-image: linear-gradient(rgb(173, 247, 211),rgb(193, 229, 239));  */
     background-color: rgba(0, 0, 0, 0.742);
-    height: 25vh;
+    height: 32vh;
     border-radius: 5px;
     display: flex;
     justify-content: center;

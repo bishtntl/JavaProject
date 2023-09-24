@@ -12,11 +12,13 @@
 }
 
 h3{
-    font-size: 2em;
+    font-size: 1em;
     color: grey;
     position: relative;
     left: 25vh;
     width: 8vw;
+    top: -3vw;
+   
     /* border: 2px solid black; */
 }
 .homeimage{
@@ -80,7 +82,7 @@ h3{
 }
 
 .top {
-    height: 650px;
+    height: 500px;
     top: 40px;
     position: relative;
     /* border: 2px solid black; */
@@ -89,8 +91,8 @@ h3{
 .imagetopone {
     position: absolute;
     height: 37vh;
-    width: 38vw;
-    left: 900px;
+    width: 35vw;
+    left: 720px;
     top: 40px;
     border-radius: 20px;
 
@@ -100,7 +102,7 @@ h3{
     position: absolute;
     height: 77vh;
     width: 52vw;
-    left:50px;
+    left:3vw;
     top: 40px;
     border-radius: 20px;
 
@@ -110,9 +112,9 @@ h3{
 .imagetopthree {
     position: absolute;
     height: 37vh;
-    width: 38vw;
-    left: 900px;
-    top: 335px;
+    width: 35vw;
+    left: 720px;
+    top: 275px;
     border-radius: 20px;
 
 }
@@ -121,7 +123,8 @@ h3{
     display: flex;
     justify-content: space-around;
     /* align-items: center; */
-    margin-top:5vh;
+    /* margin-top:5vh; */
+    height: 65vh;
 
     /* border: 2px solid black; */
 }
@@ -132,7 +135,7 @@ h3{
     display: flex;
     flex-direction: column;
     height: 60vh;
-    /* overflow: hidden; */
+    overflow: hidden;
     text-align: center;
     box-sizing: border-box;
     border-radius: 20px;
@@ -159,7 +162,7 @@ h3{
 .latest {
     position: relative;
     left: 40px;
-    top: 1vh;
+    top: 0vh;
     width: 400px;
     font-size: 3em;
 }
@@ -170,7 +173,7 @@ h3{
     width: 25vw;
     height: 20vh;
     position: relative;
-    left: 445px;
+    left:22vw;
     top: 10vh;
     overflow: hidden;
 }
@@ -180,7 +183,7 @@ h3{
     /* border: 2px solid black; */
     font-size: 1.5em;
     position: absolute;
-    left: 445px;
+    left: 22vw;
     font-weight: bold;
     top: 5vh;
 }
@@ -242,6 +245,93 @@ h3{
     font-weight: bold;
 
 }
+.logoshome{
+    position: relative;
+ left: 15vw;
+ top: 10vh;
+ /* border: 2px solid black; */
+ height:8vh;
+}
+
+.gotonavhome{
+    display: flex;
+    flex-direction: column;
+   position: relative;
+   left: 25vw;
+   width: 40vh;
+   height: 10vh;
+   
+
+   /* border: 2px solid black; */
+    
+}
+
+.logoonehome{
+    height: 5vh;
+    position: relative;
+    left: 1vw;
+    top: 1vh; 
+
+}
+.logo {
+    height: 8vh;
+    /* width: vw; */
+
+}
+
+.location {
+    position: absolute;
+    left: 5vw;
+    top: 4vh;
+}
+
+.lochome {
+    font-weight: bold;
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    color: whitesmoke;
+
+}
+
+.logoonephonehome{
+   height: 4vh;
+   position: relative;
+   right:40vw;
+   top: 13vh;
+   /* border: 5px solid black; */
+   color: aliceblue;
+   background-color: aqua;
+    
+
+}
+
+.phohome {
+    font-weight: bold;
+    position: absolute;
+    top: 13vh;
+    left: 10vw;
+  
+    color: whitesmoke;
+
+}
+
+.logoonemailhome {
+   height: 5vh;
+   position: relative;
+   right:43vw;
+   top: 20vh;
+   color: red;
+}
+
+.emailhome {
+    font-weight: bold;
+    position: absolute;
+   color: whitesmoke;
+    top: 20vh;
+  left:10vw
+
+}
 
 
 /* ****************************************************Hollywood*************************************** */
@@ -290,6 +380,7 @@ h3{
     width: 30vw;
     text-align: center;
     position: relative;
+    overflow: hidden;
     /* border: 2px solid black; */
     /* box-shadow: 2px 2px solid black; */
 
@@ -337,15 +428,17 @@ h3{
 .underdivheading {
     position: absolute;
     left: 26vw;
+    width: 50vw;
 }
 
 .underdivpara {
     position: absolute;
     left: 26vw;
-    top: 6vh;
+    top: 10vh;
     /* border: 2px solid black; */
+    overflow: hidden;
 
-    height: 20vh;
+    height: 22vh;
     width: 25vw;
 
 }
@@ -378,7 +471,7 @@ h3{
     position: absolute;
     font-weight: bold;
     left: 18vw;
-    top: 6vh;
+    top: 8vh;
     height: 15vh;
     width: 20vw;
     /* border: 2px solid black; */
@@ -397,6 +490,118 @@ h3{
     left: 5vw;
 
 }
+.footerthree{
+    background-color: rgba(0, 0, 0, 0.742);
+    height: 35vh;
+    /* width: 100vw; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    /* align-items: start; */
+    gap: 10px;
+    position: relative;
+    top: 5vh;
+    border: 2px solid black;
+
+   
+
+}
+.logosholly{
+    position: relative;
+ left: 15vw;
+ top: 11vh;
+ /* border: 2px solid black; */
+ height:8vh;
+}
+
+.gotonavholly{
+    display: flex;
+    flex-direction: column;
+   position: relative;
+   left: 25vw;
+   width: 40vh;
+   height: 10vh;
+   top: 2vh;
+
+   /* border: 2px solid black; */
+    
+}
+
+.logooneholly{
+    height: 5vh;
+    position: relative;
+    left: 1vw;
+    top: 1vh; 
+
+}
+.logo {
+    height: 8vh;
+    /* width: vw; */
+
+}
+
+.location {
+    position: absolute;
+    left: 5vw;
+    top: 4vh;
+}
+
+.locholly {
+    font-weight: bold;
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    color: whitesmoke;
+
+}
+
+.logoonephoneholly{
+   height: 4vh;
+   position: relative;
+   right:40vw;
+   top: 13vh;
+   /* border: 5px solid black; */
+   color: aliceblue;
+   background-color: aqua;
+    
+
+}
+
+.phoholly {
+    font-weight: bold;
+    position: absolute;
+    top: 13vh;
+    left: 10vw;
+  
+    color: whitesmoke;
+
+}
+
+.logoonemailholly {
+   height: 5vh;
+   position: relative;
+   right:43vw;
+   top: 20vh;
+   color: red;
+}
+
+.emailholly {
+    font-weight: bold;
+    position: absolute;
+   color: whitesmoke;
+    top: 20vh;
+  left:10vw
+
+}
+
+
+
+
+
+
+
+
+
 
 /* ************************************Bollywood********************************************************** */
 
@@ -427,7 +632,7 @@ h3{
 .underdivparabolly {
     position: absolute;
     left: 26vw;
-    top: 6vh;
+    top: 8vh;
     /* border: 2px solid black; */
 
     height: 20vh;
@@ -444,9 +649,10 @@ h3{
     position: absolute;
     font-weight: bold;
     left: 18vw;
-    top: 6vh;
+    top: 8vh;
     height: 15vh;
     width: 20vw;
+    /* border: 2px solid black; */
 
 }
 .underdivimagetwobolly{
@@ -463,15 +669,20 @@ h3{
     height: 60vh;
     display: flex;
     align-items: center;
+    width: 190vh;
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
+    margin-left: 3vw;
+   box-sizing: border-box;
+    /* border: 2px solid black; */
 }
 .underdivtwobolly{
     position: relative;
     height: 32vh;
     width: 38vw;
     border-bottom: 5px solid beige;
+    /* border: 2px solid black; */
 
 }
 
@@ -479,9 +690,10 @@ h3{
     /* border: 5px solid black; */
     border-radius: 20px;
     height: 55vh;
-    width: 30vw;
+    width: 29vw;
     text-align: center;
     position: relative;
+    overflow: hidden;
 
 }
 .bollydata:hover{
@@ -525,20 +737,130 @@ h3{
     position: relative;
 
 }
-.advissmentbolly{
+
+.logosbolly{
+    position: relative;
+    top: 12vh;
+ left: 15vw;
+ /* border: 2px solid black; */
+ height:8vh;
+}
+
+.gotonavbolly{
+    display: flex;
+    flex-direction: column;
+   position: relative;
+   left: 25vw;
+   width: 40vh;
+   height: 10vh;
+   top: 2vh;
+
+   /* border: 2px solid black; */
     
-        border: 2px solid black;
-        height: 105vh;
-        width: 35vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        top: 6vh;
-        left: 5vw;
+}
+
+.logoonebolly{
+    height: 5vh;
+    position: relative;
+    left: -0.4vw;
+    top: 1vh; 
+
+}
+.logo {
+    height: 8vh;
+    /* width: vw; */
+
+}
+
+.location {
+    position: absolute;
+    left: 5vw;
+    top: 4vh;
+}
+
+.locbolly {
+    font-weight: bold;
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    color: whitesmoke;
+
+}
+
+.logoonephonebolly{
+   height: 4vh;
+   position: relative;
+   right:40vw;
+   top: 13vh;
+   /* border: 5px solid black; */
+   color: aliceblue;
+   background-color: aqua;
     
 
 }
+
+.phobolly {
+    font-weight: bold;
+    position: absolute;
+    top: 13vh;
+    left: 10vw;
+  
+    color: whitesmoke;
+
+}
+
+.logoonemailbolly {
+   height: 5vh;
+   position: relative;
+   right:43vw;
+   top: 20vh;
+   color: red;
+}
+
+.emailbolly {
+    font-weight: bold;
+    position: absolute;
+   color: whitesmoke;
+    top: 20vh;
+  left:10vw
+
+}
+.footertwo{
+    background-color: rgba(0, 0, 0, 0.742);
+    height: 35vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    /* align-items: start; */
+    gap: 10px;
+    width: 97.5vw;
+    /* margin-left: 0.2vw; */
+    position: relative;
+    top: 5vh;
+    border: 2px solid black;
+
+}
+.Advertisementbolly{
+    border: 2px solid black;
+    height: 110vh;
+    width: 36vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 6vh;
+    /* left: 1vw; */
+}
+.bollybolly{
+    position: relative;
+    /* right: 1.5vw; */
+    /* top: 280vh; */
+    /* width: 190vh; */
+    /* left:2.5vw; */
+    /* border: 2px solid black; */
+}
+
+
 
 
 
@@ -571,10 +893,11 @@ h3{
 .underdivparafit {
     position: absolute;
     left: 26vw;
-    top: 6vh;
+    top: 10vh;
     /* border: 2px solid black; */
+    overflow: hidden;
 
-    height: 20vh;
+    height: 22vh;
     width: 25vw;
 
 }
@@ -596,6 +919,7 @@ h3{
     width: 30vw;
     text-align: center;
     position: relative;
+    overflow: hidden;
 
 }
 .fitdata:hover{
@@ -666,7 +990,7 @@ h3{
     position: absolute;
     font-weight: bold;
     left: 18vw;
-    top: 6vh;
+    top: 8vh;
     height: 15vh;
     width: 20vw;
     /* border: 2px solid black; */
@@ -688,7 +1012,7 @@ h3{
     
     .footerfit{ 
         background-color: rgba(0, 0, 0, 0.742);
-        height: 25vh;
+        height: 35vh;
         border-radius: 5px;
         display: flex;
         justify-content: center;
@@ -699,6 +1023,94 @@ h3{
         top: 2vh;
         border: 2px solid black;
     }
+    .logosfit{
+        position: relative;
+     left: 10vw;
+     /* border: 2px solid black; */
+     height:8vh;
+    }
+
+    .gotonavfit{
+        display: flex;
+        flex-direction: column;
+       position: relative;
+       left: 25vw;
+       width: 40vh;
+       height: 10vh;
+       top: -11vh;
+    
+       /* border: 2px solid black; */
+        
+    }
+    
+    .logoonefit{
+        height: 5vh;
+        position: relative;
+        left: 1vw;
+        top: 1vh; 
+    
+    }
+    .logo {
+        height: 8vh;
+        /* width: vw; */
+    
+    }
+    
+    .location {
+        position: absolute;
+        left: 5vw;
+        top: 4vh;
+    }
+    
+    .locfit {
+        font-weight: bold;
+        position: absolute;
+        top: 5vh;
+        left: 10vw;
+        color: whitesmoke;
+    
+    }
+    
+    .logoonephonefit{
+       height: 4vh;
+       position: relative;
+       right:40vw;
+       top: -1vh;
+       /* border: 5px solid black; */
+       color: aliceblue;
+       background-color: aqua;
+        
+    
+    }
+    
+    .phofit {
+        font-weight: bold;
+        position: absolute;
+        top: 13vh;
+        left: 10vw;
+      
+        color: whitesmoke;
+    
+    }
+    
+    .logoonemailfit {
+       height: 5vh;
+       position: relative;
+       right:43vw;
+       top: 6vh;
+       color: red;
+    }
+    
+    .emailfit {
+        font-weight: bold;
+        position: absolute;
+       color: whitesmoke;
+        top: 20vh;
+      left:10vw
+    
+    }
+    
+    
     
 
 
@@ -731,6 +1143,7 @@ h3{
     width: 30vw;
     text-align: center;
     position: relative;
+    overflow: hidden;
 
 }
 .fooddata:hover{
@@ -790,10 +1203,11 @@ h3{
 .underdivparafood {
     position: absolute;
     left: 26vw;
-    top: 6vh;
+    top: 8vh;
+    overflow: hidden;
     /* border: 2px solid black; */
 
-    height: 20vh;
+    height: 22vh;
     width: 25vw;
 
 }
@@ -825,7 +1239,7 @@ h3{
     position: absolute;
     font-weight: bold;
     left: 18vw;
-    top: 6vh;
+    top: 8vh;
     height: 15vh;
     width: 20vw;
     /* border: 2px solid black; */
@@ -833,7 +1247,7 @@ h3{
 }
 .footerfood{ 
     background-color: rgba(0, 0, 0, 0.742);
-    height: 25vh;
+    height:32vh;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -857,28 +1271,41 @@ h3{
     /* left: 35vw; */
 
 }
-.loc {
-    font-weight: bold;
+.logosfood{
+    /* border: 2px solid black; */
+    position: relative;
+    top: 15vh;
+    height: 10vh;
+    left: 15vw;
+}
+
+
+.navlinktwo{
+    color: black;
+}
+.gotonavfood{
+    display: flex;
+    flex-direction: column;
    position: relative;
-   left: 8vw;
-    top: 10vh;
-    color: whitesmoke;
+   left: 25vw;
+   width: 40vh;
+   height: 10vh;
+   top: -11vh;
+
+   /* border: 2px solid black; */
+    
+}
+
+.logoonefood {
+    height: 5vh;
+    position: relative;
+    left: 1vw;
+    top: 1vh; 
 
 }
 .logo {
     height: 8vh;
     /* width: vw; */
-
-}
-.logotwo{
-    height: 8vh;
-    position: absolute;
-    right: 150vw;
-
-}
-
-.logoone {
-    height: 4vh;
 
 }
 
@@ -888,59 +1315,68 @@ h3{
     top: 4vh;
 }
 
-.loc {
+.locfood {
     font-weight: bold;
     position: absolute;
-    top: 4vh;
+    top: 5vh;
+    left: 10vw;
     color: whitesmoke;
 
 }
 
-.phone {
-    position: absolute;
-    left: 5vw;
-    top: 10vh;
+.logoonephonefood {
+   height: 4vh;
+   position: relative;
+   right:40vw;
+   top: -1vh;
+   /* border: 5px solid black; */
+   color: aliceblue;
+   background-color: aqua;
+    
 
 }
 
-.pho {
+.phofood {
     font-weight: bold;
     position: absolute;
-    top: 10vh;
-    left: 17vh;
+    top: 13vh;
+    left: 10vw;
+  
     color: whitesmoke;
 
 }
 
-.mail {
-    position: absolute;
-    left: 5vw;
-    top: 17vh;
+.logoonemailfood {
+   height: 5vh;
+   position: relative;
+   right:43vw;
+   top: 6vh;
+   color: red;
 }
 
-.email {
+.emailfood {
     font-weight: bold;
     position: absolute;
-    color: whitesmoke;
-    top: 17vh;
-    left: 17vh;
+   color: whitesmoke;
+    top: 20vh;
+  left:10vw
 
 }
-.logos{
+.logosfood{
     position: relative;
  left: 10vw;
-}
+ border: 2pxsolid black;
+  height: 5vh; 
+ top: -1vh; 
 
-.gotonav{
-    display: flex;
-    flex-direction: column;
-   position: relative;
-   left: 30vw;
-   width: 40vh;
+ } 
 
-   /* border: 2px solid black; */
-    
-}
+
+
+
+
+
+
 /* ******************************************technology******************************************* */
 
 .techheading {
@@ -959,6 +1395,7 @@ h3{
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
+ 
 }
 
 .techdata {
@@ -968,6 +1405,7 @@ h3{
     width: 30vw;
     text-align: center;
     position: relative;
+    overflow: hidden;
 
 }
 .techdata:hover{
@@ -991,7 +1429,7 @@ box-shadow: 2px 2px 20px  black;
 
 .techpara {
     position: absolute;
-    top: 40vh;
+    top: 38vh;
     left: 4vh;
 
 }
@@ -1008,6 +1446,7 @@ box-shadow: 2px 2px 20px  black;
     width: 50vw;
     border-bottom: 5px solid bisque;
     position: relative;
+   
 }
 .underdivimagetech {
     height: 35vh;
@@ -1027,10 +1466,11 @@ box-shadow: 2px 2px 20px  black;
 .underdivparatech {
     position: absolute;
     left: 26vw;
-    top: 6vh;
+    top: 10vh;
     /* border: 2px solid black; */
+    overflow: hidden;
 
-    height: 20vh;
+    height: 22vh;
     width: 25vw;
 
 }
@@ -1062,7 +1502,7 @@ box-shadow: 2px 2px 20px  black;
     position: absolute;
     font-weight: bold;
     left: 18vw;
-    top: 6vh;
+    top: 8vh;
     height: 15vh;
     width: 20vw;
     /* border: 2px solid black; */
@@ -1082,60 +1522,148 @@ box-shadow: 2px 2px 20px  black;
 }
 .footertech {
     background-color: rgba(0, 0, 0, 0.742);
-    height: 25vh;
+    height: 38vh;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     /* align-items: start; */
     gap: 10px; 
     position: relative;
-    top: 2vh;
+    top:2vh;
 }
 
 
  .footer {
     /* background-image: linear-gradient(rgb(173, 247, 211),rgb(193, 229, 239));  */
     background-color: rgba(0, 0, 0, 0.742);
-    height: 25vh;
+    height: 32vh;
     border-radius: 5px;
     display: flex;
     justify-content: center;
-    /* align-items: start; */
+    align-items: start;
     gap: 10px; 
     position: relative;
+    top: 5vh;
     
  } 
 .footertwo{
     background-color: rgba(0, 0, 0, 0.742);
-    height: 25vh;
+    height: 35vh;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     /* align-items: start; */
     gap: 10px;
     position: relative;
+    top: 5vh;
+    border: 2px solid black;
    
 
 }
-.footerthree{
-    background-color: rgba(0, 0, 0, 0.742);
-    height: 25vh;
-    /* width: 100vw; */
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    /* align-items: start; */
-    gap: 10px;
+
+.logostech{
+    /* border: 2px solid black; */
     position: relative;
-    border: 2px solid black;
-
-   
-
+    top: 15vh;
+    height: 10vh;
+    left: 15vw;
 }
 
 
 .navlinktwo{
     color: black;
+}
+.gotonavtech{
+    display: flex;
+    flex-direction: column;
+   position: relative;
+   left: 25vw;
+   width: 40vh;
+   height: 20vh;
+
+   /* border: 2px solid black; */
+    
+}
+
+.logoonetech {
+    height: 5vh;
+    position: relative;
+    left: 1vw;
+    top: 11vh;
+
+    
+
+}
+
+.location {
+    position: absolute;
+    left: 5vw;
+    top: 4vh;
+}
+
+.loctech {
+    font-weight: bold;
+    position: absolute;
+    top: 15vh;
+    left: 10vw;
+    color: whitesmoke;
+
+}
+
+.logoonephone {
+   height: 5vh;
+   position: relative;
+   right:40vw;
+   top: 22vh;
+   color: aliceblue;
+   background-color: aqua;
+    
+
+}
+
+.photech {
+    font-weight: bold;
+    position: absolute;
+    top: 22vh;
+    left: 10vw;
+  
+    color: whitesmoke;
+
+}
+
+.logoonemail {
+   height: 5vh;
+   position: relative;
+   right:43vw;
+   top: 8vh;
+   color: red;
+}
+
+.emailtech {
+    font-weight: bold;
+    position: absolute;
+   color: whitesmoke;
+    top: 8vh;
+  left:10vw
+
+}
+.logosfood{
+    position: relative;
+ left: 10vw;
+ /* border: 2px solid black; */
+ height: 5vh;
+
+}
+
+.gotonav{
+    display: flex;
+    flex-direction: column;
+   position: relative;
+   left: 30vw;
+   width: 40vh;
+
+   /* border: 2px solid black; */
+    
 }
 
 
@@ -1195,21 +1723,17 @@ box-shadow: 2px 2px 20px  black;
     /* border: 2px solid black; */
 }
 
-
-
     .route {
     color: black;
     font-size: 2em;
     font-weight: bolder;
     font-family: Georgia, 'Times New Roman', Times, serif;
     transform: rotate(180deg);
-    
-
     position: relative;
     left: 45vw
 }
 
-;
+
 
 .headinggs {
     border: 10px solid rgb(214, 45, 45);
@@ -1259,11 +1783,11 @@ box-shadow: 2px 2px 20px  black;
 
 .datatwo {
     /* border: 2px solid red; */
-    border-bottom: 5px solid wheat;
-    width: 190vw;
+    border-bottom: 10px solid wheat;
+    width: 210vw;
     height: 45vh;
     position: relative;
-    left: 12vw;
+    /* left: 12vw; */
 }
 
 
@@ -1308,21 +1832,22 @@ box-shadow: 2px 2px 20px  black;
     margin-top: 10vh;
     /* margin: auto; */
     flex-direction: column;
-    /* margin-left:50px;   */
+    margin-left:5vw;  
     gap: 20px;
-    width: 210vw;
+    width: 220vw;
+    height: 280vh;
 
     /* border: 2px solid black; */
 }
 
 .underdivfirst {
     /* border: 5px solid black; */
-    width: 200vw;
+    width: 220vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     
-    height: 85vh;
+    height: 90vh;
     overflow: hidden;
     text-align: center;
     box-sizing: border-box;
@@ -1334,17 +1859,18 @@ box-shadow: 2px 2px 20px  black;
   
 }
 .parahome{
-    width: 165vw;
+    width: 185vw;
     /* height: 10vh; */
-    font-size: 1.3em;
+    font-size: 1.5em;
     position: relative;
     left: 2vw;
+    top: 2vh;
     /* border: 2px solid black; */
 }
 .homeimage{
    
     height: 50vh;
-   width:165vw;
+   width:205vw;
    border-radius: 20px;
 }
 
@@ -1356,9 +1882,9 @@ box-shadow: 2px 2px 20px  black;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    /* margin: 50px; */
-   width: 200vw;
-   margin-left: 15vw;
+  
+   width: 220vw;
+   margin-left: 5vw;
    /* border: 2px solid black; */
    
 }
@@ -1387,9 +1913,10 @@ box-shadow: 2px 2px 20px  black;
 .headingone {
     display: inline-block;
     /* border: 2px solid black; */
-    font-size: 1.5em;
+    font-size:2em;
     position: absolute;
-    left: 480px;
+    left: 475px;
+    width: 90vw;
     font-weight: bold;
     top: 5vh;
 }
@@ -1403,7 +1930,7 @@ box-shadow: 2px 2px 20px  black;
 }
 
 .advisment {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 95vh;
     width:120vw;
     display: flex;
@@ -1417,10 +1944,10 @@ box-shadow: 2px 2px 20px  black;
 .data {
      /* border: 2px solid black; */
     position: relative;
-    left:-2vw;
+    /* left:-2vw; */
     height: 45vh;
-    width: 650px;  
-    border-bottom: 5px solid rgb(244, 119, 16);
+    width: 215vw;  
+    border-bottom: 10px solid rgb(244, 119, 16);
 }
 .post{
     font-size: 4em;
@@ -1440,19 +1967,20 @@ box-shadow: 2px 2px 20px  black;
    
 }
 
+
 .imagetwo {
     position: absolute;
     left: 0;
     top: 4vh;
     height: 35vh;
-    width: 85vw;
+    width: 100vw;
 }
 
 .headingtwo {
     position: absolute;
-    left: 90vw;
+    left: 110vw;
     top: 6vh;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
 }
 
@@ -1461,7 +1989,7 @@ box-shadow: 2px 2px 20px  black;
     position: relative;
     /* left: 180px; */
     top: 10px;
-    width:180vw;
+    width:220vw;
     /* border: 2px solid black; */
    height:320vh;
 
@@ -1472,87 +2000,115 @@ box-shadow: 2px 2px 20px  black;
 .paratwo {
     position: absolute;
     top: 12vh;
-    left:90vw;
+    left:110vw;
     font-weight: bold;
+    font-size: 1.5em;
+    width: 107vw;
 
 }
 
-/* .footer { */
-    /* background-image: linear-gradient(rgb(173, 247, 211),rgb(193, 229, 239)); */
-    /* background-color: rgba(0, 0, 0, 0.742);
-    height: 25vh;
-    width: 175vw;
-  
-    border-radius: 5px;
-    display: flex;
-    justify-content: center; */
-    /* align-items: start; */
-    /* gap: 10px;
+.logoshome{
     position: relative;
-    left: 15vw;
-} */
+ left: 40vw;
+ top: 10vh;
+ /* border: 2px solid black; */
+ height:8vh;
+}
 
+.gotonavhome{
+    display: flex;
+    flex-direction: column;
+   position: relative;
+   left: 25vw;
+   width: 40vh;
+   height: 10vh;
+   top: -1vh;
+
+   /* border: 2px solid black; */
+    
+}
+
+.logoonehome{
+    height: 5vh;
+    position: relative;
+    left: 1vw;
+    top: 1vh; 
+
+}
 .logo {
     height: 8vh;
     /* width: vw; */
 
 }
 
-.logoone {
-    height: 4vh;
-
-}
-
 .location {
     position: absolute;
-    left: 73vw;
-    top: 10vh;
+    left: 5vw;
+    top: 4vh;
 }
 
-.loc {
+.lochome {
     font-weight: bold;
     position: absolute;
-    top: 10vh;
- left: 86vw;
+    top: 5vh;
+    left: 15vw;
     color: whitesmoke;
 
 }
 
-.phone {
-    position: absolute;
-    left: 73vw;
-    top: 15vh;
+.logoonephonehome{
+   height: 4vh;
+   position: relative;
+   right:88vw;
+   top: 13vh;
+   /* border: 5px solid black; */
+   color: aliceblue;
+   background-color: aqua;
+    
 
 }
 
-.pho {
+.phohome {
     font-weight: bold;
     position: absolute;
-    top: 15vh;
-    left: 49vh;
+    top: 13vh;
+    left: 15vw;
+  
     color: whitesmoke;
 
 }
 
-.mail {
+.logoonemailhome {
+   height: 5vh;
+   position: relative;
+   right:98vw;
+   top: 20vh;
+   color: red;
+}
+
+.emailhome {
+    font-weight: bold;
     position: absolute;
-    left: 73vw;
+   color: whitesmoke;
     top: 20vh;
-}
-
-.email {
-    font-weight: bold;
-    position: absolute;
-    color: whitesmoke;
-    top: 20vh;
-    left: 49vh;
+  left:15vw
 
 }
 .navlinktwo{
     color: black;
 }
 
-
+.advisment {
+    border: 2px solid black;
+    height: 95vh;
+    width: 120vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5vh;
+    left: 45vw;
+}
 
 
 /* ****************************************************Hollywood*************************************** */
@@ -1571,7 +2127,7 @@ box-shadow: 2px 2px 20px  black;
 
 .hollytop {
     height: 220vh;
-    width: 175vw;
+    width: 225vw;
    margin-left: 5vw;
     display: flex;
     flex-direction: column;
@@ -1585,10 +2141,10 @@ box-shadow: 2px 2px 20px  black;
 
 .imagehollytop {
     height: 45vh;
-    width: 155vw;
+    width: 205vw;
     border-radius: 15px;
     position: absolute;
-    left: 4vh;
+    /* left: 4vh; */
     top: 10vh;
 
 
@@ -1597,14 +2153,14 @@ box-shadow: 2px 2px 20px  black;
 
 .headingholly {
     position: absolute;
-    left: 60vw;
+    left: 90vw;
 }
 
 .hollydata {
     /* border: 5px solid black; */
     border-radius: 20px;
     height: 125vh;
-    width: 170vw;
+    width: 215vw;
     text-align: center;
     position: relative;
 
@@ -1613,20 +2169,20 @@ box-shadow: 2px 2px 20px  black;
 .hollypara {
     position: absolute;
     top: 53vh;
-    left: 4vh;
-    width:150vw ;
+    left: 15vh;
+    width:170vw ;
     /* border: 2px solid black; */
     font-weight: bold;
 }
 
 .hollyone {
-    width: 185vw;
+    width: 225vw;
     /* height: 820vh; */
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    /* margin-left: 2vw; */
+    margin-left: 5vw;
     gap: 60px;
     /* margin-left: 5vw; */
     /* border: 2px solid black; */
@@ -1634,8 +2190,8 @@ box-shadow: 2px 2px 20px  black;
 
 .hollyunderdiv {
     height: 50vh;
-    width: 180vw;
-    border-bottom: 5px solid bisque;
+    width: 225vw;
+    border-bottom: 10px solid bisque;
     position: relative;
     /* border: 2px solid black; */
 
@@ -1643,18 +2199,19 @@ box-shadow: 2px 2px 20px  black;
 
 .underdivimage {
     height: 43vh;
-    width: 100vw;
+    width: 120vw;
     position: absolute;
     top: 3vh;
     border-radius: 20px;
 
     border-radius: 5px;
+    
 
 }
 
 .underdivheading {
     position: absolute;
-    left: 105vw;
+    left: 130vw;
     
     width: 65vw;
     /* border: 2px solid black; */
@@ -1662,14 +2219,14 @@ box-shadow: 2px 2px 20px  black;
 
 .underdivpara {
     position: absolute;
-    left: 105vw;
-    top: 12vh;
+    left: 125vw;
+    top: 15vh;
     font-weight: bold;
     /* border: 2px solid black; */
     overflow: hidden;
 
     height: 26vh;
-    width: 77vw;
+    width: 100vw;
     /* border: 2px solid black; */
 
 }
@@ -1679,9 +2236,9 @@ box-shadow: 2px 2px 20px  black;
     margin-left: 5vw;
    
     height: 40vh;
-    width: 180vw;
+    width: 220vw;
    
-    border-bottom: 5px solid beige;
+    border-bottom: 10px solid beige;
 
 }
 .toppp{
@@ -1689,12 +2246,12 @@ box-shadow: 2px 2px 20px  black;
     font-size: 3em;
     /* border: 2px solid black; */
     width: 100vw;
-    left:60vw;
+    left:80vw;
 }
 
 .underdivimagetwo {
     height: 35vh;
-    width:90vw;
+    width:120vw;
     border-radius: 10px;
     position: absolute;
     top: 2vh;
@@ -1704,35 +2261,23 @@ box-shadow: 2px 2px 20px  black;
 
 .underdivheadingtwo {
     position: absolute;
-    left: 100vw;
+    left: 130vw;
 }
 
 .underdivparatwo {
     position: absolute;
     font-weight: bold;
-    left: 95vw;
-    top: 8vh;
+    left: 125vw;
+    top: 10vh;
     height: 20vh;
-    width: 80vw;
+    width: 100vw;
     /* border: 2px solid black; */
 
 }
 
-.advissment {
-    border: 2px solid black;
-    height:100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 5vh;
-    left: 15vw;
-
-}
 .topone{
     /* height:260vh; */
-    width: 180vw;
+    width: 225vw;
     position: relative;
     /* left: 5vw; */
     /* border: 2px solid black; */
@@ -1742,35 +2287,132 @@ box-shadow: 2px 2px 20px  black;
     font-size: 3em;
     /* border: 2px solid black; */
     width: 80vw;
-    left: 60vw;
+    left: 80vw;
 
 }
 .footerthree{
     background-color: rgba(0, 0, 0, 0.742);
-    height: 25vh;
-    width: 187vw;
+    height: 30vh;
+    width: 230vw;
     border-radius: 5px;
     display: flex;
+    margin-left:10vw;
     justify-content: center;
     /* align-items: center; */
     gap: 10px;
     position: relative;
     top: 10vh;
+    
    
 
 }
 .advissmentholly {
     border: 2px solid black;
     height: 105vh;
-    width: 120vw;
+    width: 150vw;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     top: 6vh;
-    left: 35vw;
+    left: 40vw;
 
 }
+
+
+.logosholly{
+    position: relative;
+ left: 50vw;
+ top: 11vh;
+ /* border: 2px solid black; */
+ height:8vh;
+}
+
+.gotonavholly{
+    display: flex;
+    flex-direction: column;
+   position: relative;
+   left: 45vw;
+   width: 40vh;
+   height: 10vh;
+   top: 2vh;
+
+   /* border: 2px solid black; */
+    
+}
+
+.logooneholly{
+    height: 5vh;
+    position: relative;
+    left: 1vw;
+    top: 1vh; 
+
+}
+.logo {
+    height: 8vh;
+    /* width: vw; */
+
+}
+
+.location {
+    position: absolute;
+    left: 5vw;
+    top: 4vh;
+}
+
+.locholly {
+    font-weight: bold;
+    position: absolute;
+    top: 5vh;
+    left: 15vw;
+    color: whitesmoke;
+
+}
+
+.logoonephoneholly{
+   height: 4vh;
+   position: relative;
+   right:98vw;
+   top: 13vh;
+   /* border: 5px solid black; */
+   color: aliceblue;
+   background-color: aqua;
+    
+
+}
+
+.phoholly {
+    font-weight: bold;
+    position: absolute;
+    top: 13vh;
+    left: 15vw;
+  
+    color: whitesmoke;
+
+}
+
+.logoonemailholly {
+   height: 5vh;
+   position: relative;
+   right:108vw;
+   top: 20vh;
+   color: red;
+}
+
+.emailholly {
+    font-weight: bold;
+    position: absolute;
+   color: whitesmoke;
+    top: 20vh;
+  left:15vw
+
+}
+
+
+
+
+
+
 
 
 /* *****************************************Bollywood****************************************** */
@@ -1785,7 +2427,7 @@ box-shadow: 2px 2px 20px  black;
 }
 .underdivimagebolly{
     height: 45vh;
-    width: 95vw;
+    width: 120vw;
     position: absolute;
     top: 2vh;
 
@@ -1795,18 +2437,18 @@ box-shadow: 2px 2px 20px  black;
 }
 .underdivheadingbolly{
     position: absolute;
-    left: 100vw;
+    left: 125vw;
 
 }
 .underdivparabolly {
     position: absolute;
-    left: 100vw;
+    left: 125vw;
     top: 8vh;
     /* border: 2px solid black; */
     font-weight: bold;
 
     height: 30vh;
-    width: 85vw;
+    width: 100vw;
 
 }
 
@@ -1825,27 +2467,29 @@ box-shadow: 2px 2px 20px  black;
 
 }
 .bollytop {
-    height: 210vh;
+    height: 310vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 20px;
-    width: 110vh;
+    width: 132vh;
     margin-top: 20px;
     margin-left: 5vw;
     /* border:  2px solid black; */
 }
 .bollybolly{
     position: relative;
-    top: 280vh;
+    top: 290vh;
+    width: 132vh;
+    /* border: 2px solid black; */
 }
 
 .bollydata {
     /* border: 5px solid black; */
     border-radius: 20px;
     height: 135vh;
-    width: 180vw;
+    width: 220vw;
     text-align: center;
     position: relative;
 
@@ -1854,14 +2498,14 @@ box-shadow: 2px 2px 20px  black;
     position: relative;
     /* left: 15vw; */
     height: 40vh;
-    width: 165vw;
-    border-bottom: 5px solid beige;
+    width: 230vw;
+    border-bottom: 10px solid beige;
     /* border:2px solid black; */
 
 }
 .underdivimagetwobolly{
     height: 35vh;
-    width: 85vw;
+    width: 110vw;
     border-radius: 10px;
     position: absolute;
     top: 2vh;
@@ -1870,7 +2514,7 @@ box-shadow: 2px 2px 20px  black;
 }
 .underdivheadingtwobolly{
     position: absolute;
-    left: 100vw;
+    left: 120vw;
     /* border: 2px solid black; */
     width: 80vw;
 
@@ -1880,10 +2524,10 @@ box-shadow: 2px 2px 20px  black;
     font-weight: bold;
     font-size: 1.2em;
   
-    left: 100vw;
+    left: 120vw;
     top: 8vh;
     height: 15vh;
-    width: 80vw;
+    width: 110vw;
 
 }
 
@@ -1893,11 +2537,11 @@ box-shadow: 2px 2px 20px  black;
 }
 
 .imagebollytop {
-    height: 40vh;
-    width: 130vw;
+    height: 60vh;
+    width: 210vw;
     border-radius: 15px;
     position: absolute;
-    left: 15vh;
+    /* left: 15vh; */
     top: 10vh;
     
 
@@ -1905,9 +2549,13 @@ box-shadow: 2px 2px 20px  black;
 
 .bollypara {
     position: absolute;
-    top: 50vh;
-    left:1vh;
+    top: 75vh;
+    width: 200vw;
+    height: 10vh;
+    left:5vh;
     font-weight: bold;
+    font-size: 1.5em;
+    /* border: 2px solid black; */
 }
 
 
@@ -1922,18 +2570,7 @@ box-shadow: 2px 2px 20px  black;
     /* border: 2px solid black; */
 
 }
-.advissment{
-    /* border: 2px solid black; */
-    height: 95vh;
-    width:100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 5vh;
-    left: 10vw;
 
-}
 .stories{
     position: relative;
     top: 295vh;
@@ -1959,17 +2596,130 @@ box-shadow: 2px 2px 20px  black;
 .bollyunderdiv {
     height: 52vh;
     width: 195vw;
-    border-bottom: 5px solid bisque;
+    border-bottom: 10px solid bisque;
     position: relative;
    
     /* left: 5vw; */
     /* border: 2px solid black; */
 
 }
-.advissment{
+.Advertisementbolly{
+    border: 2px solid black;
+    height: 110vh;
+    width: 150vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    right: 14vw;
+    top: 6vh;
+    left:35vw;
 }
+
+.gotonavbolly{
+    display: flex;
+    flex-direction: column;
+   position: relative;
+   left: 55vw;
+   width: 40vh;
+   height: 10vh;
+   top: -2vh;
+
+   /* border: 2px solid black; */
+    
+}
+
+.logoonebolly {
+    height: 5vh;
+    position: relative;
+    left: 1vw;
+    top: 1vh; 
+
+}
+.logo {
+    height: 8vh;
+    /* width: vw; */
+
+}
+
+.location {
+    position: absolute;
+    left: 5vw;
+    top: 4vh;
+}
+
+.locbolly{
+    font-weight: bold;
+    position: absolute;
+    top: 5vh;
+    left: 15vw;
+    color: whitesmoke;
+
+}
+
+.logoonephonebolly {
+   height: 4vh;
+   position: relative;
+   right:110vw;
+   top: 13vh;
+   /* border: 5px solid black; */
+   color: aliceblue;
+   background-color: aqua;
+    
+
+}
+
+.phobolly{
+    font-weight: bold;
+    position: absolute;
+    top: 13vh;
+    left: 15vw;
+  
+    color: whitesmoke;
+
+}
+
+.logoonemailbolly{
+   height: 5vh;
+   position: relative;
+   right:120vw;
+   top: 20vh;
+   color: red;
+}
+
+.emailbolly{
+    font-weight: bold;
+    position: absolute;
+   color: whitesmoke;
+    top: 20vh;
+  left:15vw
+
+}
+.logosbolly{
+    position: relative;
+ left: 50vw;
+ /* border: 2pxsolid black; */
+ height: 5vh;
+ top: 10vh;
+
+}
+
+
+.footertwo{
+    background-color: rgba(0, 0, 0, 0.742);
+    height: 28vh;
+    width: 255vw;
+    border-radius: 5px;
+    display: flex;
+    /* margin-left: 5vw; */
+    justify-content: center;
+    
+    gap: 10px;
+    position: relative;
+    top: 620vh;
+   /* left: 0vh; */
+
+}
+
 
 
 
@@ -2153,7 +2903,93 @@ box-shadow: 2px 2px 20px  black;
 }
 
 
+.gotonavfood{
+    display: flex;
+    flex-direction: column;
+   position: relative;
+   left: 35vw;
+   width: 40vh;
+   height: 10vh;
+   top: -11vh;
 
+   /* border: 2px solid black; */
+    
+}
+
+.logoonefood {
+    height: 5vh;
+    position: relative;
+    left: 1vw;
+    top: 1vh; 
+
+}
+.logo {
+    height: 8vh;
+    /* width: vw; */
+
+}
+
+.location {
+    position: absolute;
+    left: 5vw;
+    top: 4vh;
+}
+
+.locfood {
+    font-weight: bold;
+    position: absolute;
+    top: 5vh;
+    left: 15vw;
+    color: whitesmoke;
+
+}
+
+.logoonephonefood {
+   height: 4vh;
+   position: relative;
+   right:96vw;
+   top: 3vh;
+   /* border: 5px solid black; */
+   color: aliceblue;
+   background-color: aqua;
+    
+
+}
+
+.phofood {
+    font-weight: bold;
+    position: absolute;
+    top: 13vh;
+    left: 15vw;
+  
+    color: whitesmoke;
+
+}
+
+.logoonemailfood {
+   height: 5vh;
+   position: relative;
+   right:106vw;
+   top: 10vh;
+   color: red;
+}
+
+.emailfood {
+    font-weight: bold;
+    position: absolute;
+   color: whitesmoke;
+    top: 20vh;
+  left:15vw
+
+}
+.logosfood{
+    position: relative;
+ left: 35vw;
+ /* border: 2pxsolid black; */
+ height: 5vh;
+ top: -1vh;
+
+}
 
 
 
@@ -2328,6 +3164,7 @@ box-shadow: 2px 2px 20px  black;
     gap: 10px;
     position: relative;
     top: 15vh;
+    
 }
 .advissmentfit {
     border: 2px solid black;
@@ -2341,6 +3178,95 @@ box-shadow: 2px 2px 20px  black;
     left: 35vw;
 
 }
+
+.gotonavfit{
+    display: flex;
+    flex-direction: column;
+   position: relative;
+   left: 35vw;
+   width: 40vh;
+   height: 10vh;
+   top: -8vh;
+
+   /* border: 2px solid black; */
+    
+}
+
+.logoonefit {
+    height: 5vh;
+    position: relative;
+    left: 1vw;
+    top: 1vh; 
+
+}
+.logo {
+    height: 8vh;
+    /* width: vw; */
+
+}
+
+.location {
+    position: absolute;
+    left: 5vw;
+    top: 4vh;
+}
+
+.locfit{
+    font-weight: bold;
+    position: absolute;
+    top: 5vh;
+    left: 15vw;
+    color: whitesmoke;
+
+}
+
+.logoonephonefit {
+   height: 4vh;
+   position: relative;
+   right:90vw;
+   top: 3vh;
+   /* border: 5px solid black; */
+   color: aliceblue;
+   background-color: aqua;
+    
+
+}
+
+.phofit{
+    font-weight: bold;
+    position: absolute;
+    top: 13vh;
+    left: 15vw;
+  
+    color: whitesmoke;
+
+}
+
+.logoonemailfit{
+   height: 5vh;
+   position: relative;
+   right:100vw;
+   top: 10vh;
+   color: red;
+}
+
+.emailfit{
+    font-weight: bold;
+    position: absolute;
+   color: whitesmoke;
+    top: 20vh;
+  left:15vw
+
+}
+.logosfit{
+    position: relative;
+ left: 40vw;
+ /* border: 2pxsolid black; */
+ height: 5vh;
+ top: -1vh;
+
+}
+
 
 
 
@@ -2523,10 +3449,10 @@ box-shadow: 2px 2px 20px  black;
 }
 
 .number{
-    font-size: 3em;
+    font-size: 2em;
     color: grey;
     position: relative;
-    top:5vh;
+    top:-5vh;
     left: 35vh;
 }
 .advissmenttech {
@@ -2543,7 +3469,7 @@ box-shadow: 2px 2px 20px  black;
 }
  .footertech {
         background-color: rgba(0, 0, 0, 0.742);
-        height: 25vh;
+        height: 28vh;
         width: 232vw;
         border-radius: 5px;
         display: flex;
@@ -2571,20 +3497,7 @@ box-shadow: 2px 2px 20px  black;
    left: 5vh;
 }
 
-.footertwo{
-    background-color: rgba(0, 0, 0, 0.742);
-    height: 25vh;
-    width: 210vw;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    
-    gap: 10px;
-    position: relative;
-    top: 590vh;
-   left: 0vh;
 
-}
 
 .route {
     color: black;
@@ -2606,6 +3519,89 @@ box-shadow: 2px 2px 20px  black;
     position: relative;
     left: 40vw;
 
+}
+
+.logoonetech {
+    height: 5vh;
+    position: relative;
+    right: 54vw;
+    top: 4vh;
+
+    
+
+}
+
+.location {
+    position: absolute;
+    left: 3vw;
+    top: 4vh;
+}
+
+.loctech {
+    font-weight: bold;
+    position: absolute;
+    top: 8vh;
+    left: 16vw;
+    color: whitesmoke;
+
+}
+
+.logoonephone {
+   height: 5vh;
+   position: relative;
+   right: 98vw;
+   top: 20vh;
+   color: aliceblue;
+   background-color: aqua;
+    
+
+}
+
+.photech {
+    font-weight: bold;
+    position: absolute;
+    top: 21vh;
+    left: 15vw;
+  
+    color: whitesmoke;
+
+}
+
+.logoonemail {
+   height: 5vh;
+   position: relative;
+   right:110vw;
+   top: 14vh;
+   color: red;
+}
+
+.emailtech {
+    font-weight: bold;
+    position: absolute;
+   color: whitesmoke;
+    top: 15vh;
+  left:15vw
+
+}
+.logostech{
+    position: relative;
+ left: 35vw;
+ /* border: 2px solid black; */
+ height: 5vh;
+ top: 10vh;
+
+}
+
+.gotonavtech{
+    display: flex;
+    flex-direction: column;
+   position: relative;
+   left: 45vw;
+   width: 40vh;
+   height: 10vh;
+
+   /* border: 2px solid black; */
+    
 }
 
 
@@ -2630,7 +3626,7 @@ box-shadow: 2px 2px 20px  black;
         /* justify-content: space-around; */
         position: relative;
         left: 3vw;
-        border: 2px solid black;
+        /* border: 2px solid black; */
     }
     
     
@@ -2736,6 +3732,7 @@ box-shadow: 2px 2px 20px  black;
         margin-left:5vw;  
         gap: 20px;
         width: 230vw;
+        height: 450vh;
     
         /* border: 2px solid black; */
     }
@@ -2759,11 +3756,12 @@ box-shadow: 2px 2px 20px  black;
       
     }
     .parahome{
-        width: 165vw;
+        width: 195vw;
         /* height: 10vh; */
         font-size: 3em;
         position: relative;
         left: 2vw;
+        font-weight: bold;
         top: 8vh;
         /* border: 2px solid black; */
     }
@@ -2792,7 +3790,7 @@ box-shadow: 2px 2px 20px  black;
     
     .latest {
         position: relative;
-        left:50vw;
+        left:80vw;
         top: 50vh;
         width: 150vw;
         font-size: 10em;
@@ -2818,13 +3816,14 @@ box-shadow: 2px 2px 20px  black;
         position: relative;
         left:125vw;
         font-size: 2.5em;
+        font-weight: bold;
         
         top: 14vh;
         overflow: hidden;
     }
     .datatwo {
         /* border: 2px solid red; */
-        border-bottom: 5px solid wheat;
+        border-bottom: 10px solid wheat;
         width: 220vw;
         height: 55vh;
         position: relative;
@@ -2867,7 +3866,7 @@ box-shadow: 2px 2px 20px  black;
         /* left:-2vw; */
         height: 55vh;
         width: 650px;  
-        border-bottom: 5px solid rgb(244, 119, 16);
+        border-bottom: 10px solid rgb(244, 119, 16);
     }
     .post{
         font-size: 4em;
@@ -2938,53 +3937,97 @@ box-shadow: 2px 2px 20px  black;
     }
     
     
+    .logoshome{
+        position: relative;
+     left: 30vw;
+     top: 10vh;
+     /* border: 2px solid black; */
+     height:8vh;
+    }
+    
+    .gotonavhome{
+        display: flex;
+        flex-direction: column;
+       position: relative;
+       left: 55vw;
+       width: 40vh;
+       height: 10vh;
+       top: 1vh;
+       font-size: 1.2em;
+    
+       /* border: 2px solid black; */
+        
+    }
+    
+    .logoonehome{
+        height: 5vh;
+        position: relative;
+        left: -55vw;
+        top: -6vh; 
+    
+    }
     .logo {
         height: 8vh;
         /* width: vw; */
     
     }
     
-    .logoone {
-        height: 4vh;
-    
-    }
-    
     .location {
         position: absolute;
-        left: 73vw;
-        top: 10vh;
+        left: 5vw;
+        top: 4vh;
     }
     
-    .loc {
+    .lochome {
         font-weight: bold;
         position: absolute;
-        top: 10vh;
-     left: 86vw;
+        top: 5vh;
+        left: 15vw;
         color: whitesmoke;
     
     }
     
-    .phone {
-        position: absolute;
-        left: 73vw;
-        top: 15vh;
+    .logoonephonehome{
+       height: 4vh;
+       position: relative;
+       right:108vw;
+       top: 13vh;
+       /* border: 5px solid black; */
+       color: aliceblue;
+       background-color: aqua;
+        
     
     }
     
-    .pho {
+    .phohome {
         font-weight: bold;
         position: absolute;
-        top: 15vh;
-        left: 49vh;
+        top: 13vh;
+        left: 15vw;
+      
         color: whitesmoke;
     
     }
     
-    .mail {
+    .logoonemailhome {
+       height: 5vh;
+       position: relative;
+       right:115vw;
+       top: 20vh;
+       color: red;
+    }
+    
+    .emailhome {
+        font-weight: bold;
         position: absolute;
-        left: 73vw;
+       color: whitesmoke;
         top: 20vh;
+      left:15vw
+    
     }
+    
+    
+    
     
     .email {
         font-weight: bold;
@@ -2998,7 +4041,17 @@ box-shadow: 2px 2px 20px  black;
         color: black;
     }
     
-    
+    .advisment {
+        border: 2px solid black;
+        height: 95vh;
+        width: 150vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 5vh;
+        left: 15vw;
+    }
     
     
     /* ****************************************************Hollywood*************************************** */
@@ -3006,18 +4059,18 @@ box-shadow: 2px 2px 20px  black;
     
     
     .hollyheading {
-        font-size: 3em;
+        font-size: 8em;
         width: 10vw;
         position: relative;
-        left: 30vw;
+        left: 15vw;
     
         text-decoration: underline;
     }
     
     
     .hollytop {
-        height: 220vh;
-        width: 175vw;
+        height: 320vh;
+        width: 205vw;
        margin-left: 5vw;
         display: flex;
         flex-direction: column;
@@ -3030,12 +4083,12 @@ box-shadow: 2px 2px 20px  black;
     }
     
     .imagehollytop {
-        height: 45vh;
-        width: 155vw;
+        height: 70vh;
+        width: 196vw;
         border-radius: 15px;
         position: absolute;
-        left: 4vh;
-        top: 10vh;
+        /* left: 4vh; */
+        top: 15vh;
     
     
     
@@ -3043,14 +4096,15 @@ box-shadow: 2px 2px 20px  black;
     
     .headingholly {
         position: absolute;
-        left: 60vw;
+        left: 80vw;
+        font-size: 4em;
     }
     
     .hollydata {
         /* border: 5px solid black; */
         border-radius: 20px;
         height: 125vh;
-        width: 170vw;
+        width: 200vw;
         text-align: center;
         position: relative;
     
@@ -3058,21 +4112,22 @@ box-shadow: 2px 2px 20px  black;
     
     .hollypara {
         position: absolute;
-        top: 53vh;
-        left: 4vh;
-        width:150vw ;
+        top: 86vh;
+        left: 15vh;
+        width:170vw ;
+        font-size: 2em;
         /* border: 2px solid black; */
         font-weight: bold;
     }
     
     .hollyone {
-        width: 185vw;
+        width: 205vw;
         /* height: 820vh; */
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        /* margin-left: 2vw; */
+        margin-left: 5vw;
         gap: 60px;
         /* margin-left: 5vw; */
         /* border: 2px solid black; */
@@ -3080,7 +4135,7 @@ box-shadow: 2px 2px 20px  black;
     
     .hollyunderdiv {
         height: 50vh;
-        width: 180vw;
+        width: 200vw;
         border-bottom: 5px solid bisque;
         position: relative;
         /* border: 2px solid black; */
@@ -3103,6 +4158,7 @@ box-shadow: 2px 2px 20px  black;
         left: 105vw;
         
         width: 65vw;
+        font-size: 3em;
         /* border: 2px solid black; */
     }
     
@@ -3113,22 +4169,23 @@ box-shadow: 2px 2px 20px  black;
         font-weight: bold;
         /* border: 2px solid black; */
         overflow: hidden;
-    
+    font-size: 2em;
         height: 26vh;
-        width: 77vw;
+        width: 95vw;
         /* border: 2px solid black; */
     
     }
     
     .underdivtwo {
         /* border: 2px solid black; */
-        margin-left: 5vw;
+        /* margin-left: 5vw; */
        
         height: 40vh;
-        width: 180vw;
+        width: 195
+        vw;
        
         border-bottom: 5px solid beige;
-    
+
     }
     .toppp{
         position: relative;
@@ -3151,31 +4208,23 @@ box-shadow: 2px 2px 20px  black;
     .underdivheadingtwo {
         position: absolute;
         left: 100vw;
+        width: 80vw;
+        font-size: 3em;
     }
     
     .underdivparatwo {
         position: absolute;
         font-weight: bold;
         left: 95vw;
-        top: 8vh;
+        top: 10vh;
         height: 20vh;
-        width: 80vw;
+        width: 100vw;
+        font-size: 2em;
         /* border: 2px solid black; */
     
     }
     
-    .advissment {
-        border: 2px solid black;
-        height:100vh;
-        width: 100vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        top: 5vh;
-        left: 15vw;
-    
-    }
+
     .topone{
         /* height:260vh; */
         width: 180vw;
@@ -3185,17 +4234,18 @@ box-shadow: 2px 2px 20px  black;
     }
     .topss{
         position: relative;
-        font-size: 3em;
+        font-size: 5em;
         /* border: 2px solid black; */
         width: 80vw;
-        left: 60vw;
+        left: 80vw;
     
     }
     .footerthree{
         background-color: rgba(0, 0, 0, 0.742);
-        height: 25vh;
-        width: 187vw;
+        height: 30vh;
+        width: 198vw;
         border-radius: 5px;
+        margin-left: 5vw;
         display: flex;
         justify-content: center;
         /* align-items: center; */
@@ -3215,8 +4265,100 @@ box-shadow: 2px 2px 20px  black;
         position: relative;
         top: 6vh;
         left: 35vw;
+        font-size: 2em;
     
     }
+    .gotonavholly{
+        display: flex;
+        flex-direction: column;
+       position: relative;
+       left: 55vw;
+       width: 40vh;
+       font-size: 1.8em;
+       height: 10vh;
+       top: 0vh;
+    
+    
+       
+        
+    }
+    
+    .logooneholly {
+        height: 5vh;
+        position: relative;
+      left: -57vw;
+        top: -6vh; 
+    
+    }
+    .logo {
+        height: 8vh;
+        /* width: vw; */
+    
+    }
+    
+    .location {
+        position: absolute;
+        left: 5vw;
+        top: 4vh;
+    }
+    
+    .locholly{
+        font-weight: bold;
+        position: absolute;
+        top: 5vh;
+        left: 15vw;
+        color: whitesmoke;
+    
+    }
+    
+    .logoonephoneholly {
+       height: 4vh;
+       position: relative;
+       right:86vw;
+       top: 12vh;
+       /* border: 5px solid black; */
+       color: aliceblue;
+       background-color: aqua;
+        
+    
+    }
+    
+    .phoholly{
+        font-weight: bold;
+        position: absolute;
+        top: 12vh;
+        left: 15vw;
+      
+        color: whitesmoke;
+    
+    }
+    
+    .logoonemailholly{
+       height: 5vh;
+       position: relative;
+       right:92vw;
+       top: 18vh;
+       color: red;
+    }
+    
+    .emailholly{
+        font-weight: bold;
+        position: absolute;
+       color: whitesmoke;
+        top: 20vh;
+      left:15vw
+    
+    }
+    .logosholly{
+        position: relative;
+     left: 20vw;
+     /* border: 2pxsolid black; */
+     height: 5vh;
+     top: 10vh;
+    
+    }
+    
+    
     
     
     /* *****************************************Bollywood****************************************** */
@@ -3231,7 +4373,7 @@ box-shadow: 2px 2px 20px  black;
     }
     .underdivimagebolly{
         height: 65vh;
-        width: 80vw;
+        width: 150vw;
         position: absolute;
         top: 2vh;
   
@@ -3241,37 +4383,24 @@ box-shadow: 2px 2px 20px  black;
     }
     .underdivheadingbolly{
         position: absolute;
-        left: 100vw;
+        left: 160vw;
         font-size: 5em;
     
     }
     .underdivparabolly {
         position: absolute;
-        left: 100vw;
+        left: 160vw;
         top: 15vh;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         font-weight: bold;
         font-size: 3em;
     
-        height: 30vh;
-        width: 200vw;
+        height: 40vh;
+        width: 140vw;
     
     }
     
-    .advissmentbolly{
-        
-        /* border: 2px solid black; */
-        height: 100vh;
-        width: 150vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        top: 6vh;
-        left: 22vw;
     
-    
-    }
     .bollytop {
         height: 480vh;
         display: flex;
@@ -3301,15 +4430,15 @@ box-shadow: 2px 2px 20px  black;
     .underdivtwobolly{
         position: relative;
         /* left: 15vw; */
-        height: 40vh;
-        width: 165vw;
+        height: 50vh;
+        width:300vw;
         border-bottom: 10px solid beige;
         /* border:2px solid black; */
     
     }
     .underdivimagetwobolly{
-        height: 30vh;
-        width: 105vw;
+        height: 45vh;
+        width: 115vw;
         border-radius: 10px;
         position: absolute;
         top: 2vh;
@@ -3318,7 +4447,8 @@ box-shadow: 2px 2px 20px  black;
     }
     .underdivheadingtwobolly{
         position: absolute;
-        left: 100vw;
+        left: 130vw;
+        font-size: 5em;
         /* border: 2px solid black; */
         width: 80vw;
     
@@ -3326,12 +4456,12 @@ box-shadow: 2px 2px 20px  black;
     .underdivparatwobolly{
         position: absolute;
         font-weight: bold;
-        font-size:2em;
-      
-        left: 100vw;
-        top: 10vh;
-        height: 15vh;
-        width: 80vw;
+        font-size:3em;
+      /* border: 2px solid black; */
+        left: 130vw;
+        top: 12vh;
+        height: 25vh;
+        width: 150vw;
     
     }
     
@@ -3366,30 +4496,19 @@ box-shadow: 2px 2px 20px  black;
     
     .bollyone {
         width: 300vw;
-        height:1180vh;
+        height:1190vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 20px;
         margin-left: 5vw;
-        border: 2px solid black;
-    
-    }
-    .advissment{
         /* border: 2px solid black; */
-        height: 95vh;
-        width:100vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        top: 5vh;
-        left: 10vw;
     
     }
+    
     .stories{
         position: relative;
-        top: 300vh;
+        top: 380vh;
     }
     .bollytopstories{
         width: 100vw;
@@ -3402,27 +4521,139 @@ box-shadow: 2px 2px 20px  black;
     }
     .bollytoppost{
         width: 100vw;
-        font-size: 4em;
+        font-size: 8em;
         /* border: 2px solid black; */
         position: relative;
-        left: 65vw;
+        left: 115vw;
     
     
     }
     .bollyunderdiv {
         height: 75vh;
-        width: 195vw;
-        border-bottom: 5px solid bisque;
+        width: 300vw;
+        border-bottom: 10px solid bisque;
         position: relative;
        
         /* left: 5vw; */
+        /* border: 2px solid black; */
+    
+    }
+    .footertwo{
+        background-color: rgba(0, 0, 0, 0.742);
+        height: 35vh;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        /* align-items: start; */
+        gap: 10px;
+        width: 310vw;
+        /* margin-left: 0.2vw; */
+        position: relative;
+        top: 690vh;
         border: 2px solid black;
     
     }
-    .advissment{
+    .Advertisementbolly{
+        border: 2px solid black;
+        height: 100vh;
+        width: 156vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: relative;
-        right: 14vw;
+        top: 6vh;
+        left: 58vw;
     }
+    .gotonavbolly{
+        display: flex;
+        flex-direction: column;
+       position: relative;
+       left: 85vw;
+       width: 40vh;
+       font-size: 1.8em;
+       height: 10vh;
+       top: 0vh;
+    
+    
+       
+        
+    }
+    
+    .logoonebolly {
+        height: 5vh;
+        position: relative;
+      left: -57vw;
+        top: -6vh; 
+    
+    }
+    .logo {
+        height: 8vh;
+        /* width: vw; */
+    
+    }
+    
+    .location {
+        position: absolute;
+        left: 5vw;
+        top: 4vh;
+    }
+    
+    .locbolly{
+        font-weight: bold;
+        position: absolute;
+        top: 5vh;
+        left: 15vw;
+        color: whitesmoke;
+    
+    }
+    
+    .logoonephonebolly {
+       height: 4vh;
+       position: relative;
+       right:143vw;
+       top: 15vh;
+       /* border: 5px solid black; */
+       color: aliceblue;
+       background-color: aqua;
+        
+    
+    }
+    
+    .phobolly{
+        font-weight: bold;
+        position: absolute;
+        top: 15vh;
+        left: 15vw;
+      
+        color: whitesmoke;
+    
+    }
+    
+    .logoonemailbolly{
+       height: 5vh;
+       position: relative;
+       right:150vw;
+       top: 25vh;
+       color: red;
+    }
+    
+    .emailbolly{
+        font-weight: bold;
+        position: absolute;
+       color: whitesmoke;
+        top: 25vh;
+      left:15vw
+    
+    }
+    .logosbolly{
+        position: relative;
+     left: 20vw;
+     /* border: 2pxsolid black; */
+     height: 5vh;
+     top: 10vh;
+    
+    }
+    
     
     
     
@@ -3611,6 +4842,94 @@ box-shadow: 2px 2px 20px  black;
     
     }
     
+    .gotonavfood{
+        display: flex;
+        flex-direction: column;
+       position: relative;
+       left: 55vw;
+       width: 40vh;
+       height: 10vh;
+       top:-4vh;
+    
+       /* border: 2px solid black; */
+        
+    }
+    
+    .logoonefood {
+        height: 5vh;
+        position: relative;
+        left: -55vw;
+        top: -5vh; 
+    
+    }
+    .logo {
+        height: 8vh;
+        /* width: vw; */
+    
+    }
+    
+    .location {
+        position: absolute;
+        left: 5vw;
+        top: 4vh;
+    }
+    
+    .locfood {
+        font-weight: bold;
+        position: absolute;
+        top: 5vh;
+        left: 15vw;
+        color: whitesmoke;
+    
+    }
+    
+    .logoonephonefood {
+       height: 4vh;
+       position: relative;
+       right:99vw;
+       top: 3vh;
+       /* border: 5px solid black; */
+       color: aliceblue;
+       background-color: aqua;
+        
+    
+    }
+    
+    .phofood {
+        font-weight: bold;
+        position: absolute;
+        top: 13vh;
+        left: 15vw;
+      
+        color: whitesmoke;
+    
+    }
+    
+    .logoonemailfood {
+       height: 5vh;
+       position: relative;
+       right:106vw;
+       top: 10vh;
+       color: red;
+    }
+    
+    .emailfood {
+        font-weight: bold;
+        position: absolute;
+       color: whitesmoke;
+        top: 20vh;
+      left:15vw
+    
+    }
+    .logosfood{
+        position: relative;
+     left: 35vw;
+     /* border: 2pxsolid black; */
+     height: 5vh;
+     top: -1vh;
+    
+    }
+    
     
     
     
@@ -3795,7 +5114,7 @@ box-shadow: 2px 2px 20px  black;
         /* align-items: start; */
         gap: 10px;
         position: relative;
-        top: 18vh;
+        top: 25vh;
     }
     .advissmentfit {
         border: 2px solid black;
@@ -3811,6 +5130,98 @@ box-shadow: 2px 2px 20px  black;
       
     
     }
+    .gotonavfit{
+        display: flex;
+        flex-direction: column;
+       position: relative;
+       left: 55vw;
+       width: 40vh;
+       height: 10vh;
+       top: -5vh;
+    
+       /* border: 2px solid black; */
+        
+    }
+    
+    .logoonefit {
+        height: 5vh;
+        position: relative;
+        left: -42vh;
+        top: -5vh; 
+    
+    }
+    .logo {
+        height: 8vh;
+        /* width: vw; */
+    
+    }
+    
+    .location {
+        position: absolute;
+        left: 5vw;
+        top: 4vh;
+    }
+    
+    .locfit{
+        font-weight: bold;
+        position: absolute;
+        top: 6vh;
+        left: 15vw;
+        color: whitesmoke;
+    
+    }
+    
+    .logoonephonefit {
+       height: 4vh;
+       position: relative;
+       right:94vw;
+       top: 3vh;
+       /* border: 5px solid black; */
+       color: aliceblue;
+       background-color: aqua;
+        
+    
+    }
+    
+    .phofit{
+        font-weight: bold;
+        position: absolute;
+        top: 14vh;
+        left: 15vw;
+      
+        color: whitesmoke;
+    
+    }
+    
+    .logoonemailfit{
+       height: 5vh;
+       position: relative;
+       right:100vw;
+       top: 10vh;
+       color: red;
+    }
+    
+    .emailfit{
+        font-weight: bold;
+        position: absolute;
+       color: whitesmoke;
+        top: 20vh;
+      left:15vw
+    
+    }
+    .logosfit{
+        position: relative;
+     left: 40vw;
+     /* border: 2pxsolid black; */
+     height: 5vh;
+     top: -1vh;
+    
+    }
+    
+    
+    
+    
+    
     
     
     
@@ -3837,11 +5248,11 @@ box-shadow: 2px 2px 20px  black;
         justify-content: center;
         gap: 20px;
         margin-top: 20px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
     }
     
     .techdata {
-       border: 2px solid black;
+       /* border: 2px solid black; */
         border-radius: 20px;
         height: 135vh;
         width: 240vw;
@@ -4047,20 +5458,7 @@ box-shadow: 2px 2px 20px  black;
        /* left: 5vh; */
     }
     
-    .footertwo{
-        background-color: rgba(0, 0, 0, 0.742);
-        height: 25vh;
-        width: 210vw;
-        border-radius: 5px;
-        display: flex;
-        justify-content: center;
-        
-        gap: 10px;
-        position: relative;
-        top: 590vh;
-       left: 0vh;
-    
-    }
+   
     
     .route {
         color: black;
@@ -4083,13 +5481,94 @@ box-shadow: 2px 2px 20px  black;
     }
     .navbar{
         position: relative;
-        left: 10vw;
+        left: 6vw;
         font-size: 5em;
     
     }
     
     
+    .logoonetech {
+        height: 5vh;
+        position: relative;
+       left: -54vw;
+        top: -4vh;
     
+        
+    
+    }
+    
+    .location {
+        position: absolute;
+        left: 3vw;
+        top: 4vh;
+    }
+    
+    .loctech {
+        font-weight: bold;
+        position: absolute;
+        top: 8vh;
+        left: 16vw;
+        color: whitesmoke;
+    
+    }
+    
+    .logoonephone {
+       height: 5vh;
+       position: relative;
+       right: 105vw;
+       top: 20vh;
+       color: aliceblue;
+       background-color: aqua;
+        
+    
+    }
+    
+    .photech {
+        font-weight: bold;
+        position: absolute;
+        top: 21vh;
+        left: 15vw;
+      
+        color: whitesmoke;
+    
+    }
+    
+    .logoonemail {
+       height: 5vh;
+       position: relative;
+       right:113vw;
+       top: 14vh;
+       color: red;
+    }
+    
+    .emailtech {
+        font-weight: bold;
+        position: absolute;
+       color: whitesmoke;
+        top: 15vh;
+      left:15vw
+    
+    }
+    .logostech{
+        position: relative;
+     left: 30vw;
+     /* border: 2px solid black; */
+     height: 5vh;
+     top: 10vh;
+    
+    }
+    
+    .gotonavtech{
+        display: flex;
+        flex-direction: column;
+       position: relative;
+       left: 65vw;
+       width: 40vh;
+       height: 10vh;
+    
+       /* border: 2px solid black; */
+        
+    }
     
     
     
