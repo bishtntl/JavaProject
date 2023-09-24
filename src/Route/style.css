@@ -1540,7 +1540,7 @@ box-shadow: 2px 2px 20px  black;
     border-radius: 5px;
     display: flex;
     justify-content: center;
-    align-items: start;
+    /* align-items: ; */
     gap: 10px; 
     position: relative;
     top: 5vh;
