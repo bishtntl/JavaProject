@@ -44,7 +44,7 @@ function TechCompo() {
                             <div key={index} className="underdivtwotech">
                                 <h1 className="underdivheadingtwotech">{item.name.slice(0,10)}..</h1>
                                 <NavLink className='navlinktwo' to={`/details/${item.id}` }>     <img className="underdivimagetwotech" src={item.image} alt="Not Found"/></NavLink>
-                                <p className="underdivparatwotech" >{item.para.slice(0, 105)}...<h3  className="number">{index +1}</h3></p>
+                                <p className="underdivparatwotech" >{item.para.slice(0, 105)}...<span  className="number">{index +1}</span></p>
 
                             </div>
                         )

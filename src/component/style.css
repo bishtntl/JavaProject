@@ -76,13 +76,16 @@
     width: 4vw;
     border-radius: 50%;
     background-color: brown;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     float: left;
 }
 .parent{
     /* border: 2px solid black; */
     height: 15vh;
+    width: 80vw;
     margin-top: 2vh;
+    position: relative;
+    left: 15vw;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -117,19 +120,126 @@
 
 }
 .footermain {
-    /* background-image: linear-gradient(rgb(173, 247, 211),rgb(193, 229, 239));  */
     background-color: rgba(0, 0, 0, 0.742);
-    height: 32vh;
+    height: 35vh;
     border-radius: 5px;
     display: flex;
     justify-content: center;
-    /* align-items: start; */
-    gap: 10px; 
+    align-items: center;
+    gap: 10px;
     position: relative;
-    top: 10vh;
+
+    top: 2vh;
+    /* border: 2px solid black; */
    
     
  } 
+
+ .logosdtl {
+    position: relative;
+    top:0vh;
+    left: 15vw;
+    /* border: 2px solid black; */
+    height: 8vh;
+}
+
+.gotonavdtl {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 25vw;
+    width: 40vh;
+    /* height: 10vh; */
+    top: 2vh;
+
+    /* border: 2px solid black; */
+
+}
+
+.logoonedtl {
+    height: 5vh;
+    position: relative;
+    left: -0.4vw;
+    top: 1vh;
+
+}
+
+.logo {
+    height: 8vh;
+    /* width: vw; */
+
+}
+
+.location {
+    position: absolute;
+    left: 5vw;
+    top: 4vh;
+}
+
+.locdtl {
+    font-weight: bold;
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    color: whitesmoke;
+
+}
+
+.logoonephonedtl {
+    height: 4vh;
+    position: relative;
+    right: 41vw;
+    top: -2vh;
+    /* border: 5px solid black; */
+    color: aliceblue;
+    background-color: aqua;
+
+
+}
+
+.phodtl {
+    font-weight: bold;
+    position: absolute;
+    top: 13vh;
+    left: 10vw;
+
+    color: whitesmoke;
+
+}
+
+.logoonemaildtl {
+    height: 5vh;
+    position: relative;
+    right: 44vw;
+    top: 5vh;
+    color: red;
+}
+
+.emaildtl {
+    font-weight: bold;
+    position: absolute;
+    color: whitesmoke;
+    top: 20vh;
+    left: 10vw
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -142,8 +252,9 @@
         flex-direction: row;
         /* border: 2px solid black; */
         margin-top: 20px;
-        width: 180vw;
-        margin-left: 15vw;
+        width: 250vw;
+       position: relative;
+       left: 10vw;
         /* margin: auto; */
     }
     .detailinnerdiv{
@@ -184,6 +295,10 @@
     
     
     }
+    .dtltwo{
+        width: 220vw;
+        /* border: 2px solid black; */
+    }
     
     .detailsthree{
         display: flex;
@@ -191,7 +306,9 @@
 
         /* border: 2px solid black; */
         margin-top: 5vh;
-        width: 215vw;
+        width: 250vw;
+        position: relative;
+        left: 10vw;
         
     
     }
@@ -199,7 +316,7 @@
     
     .detailsimage{
         border-radius: 20px;
-        width: 180vw;
+        width: 220vw;
     }
     .btngoback{
         width: 20vw;
@@ -230,10 +347,10 @@
     }
     .parent{
         /* border: 2px solid black; */
-        height: 15vh;
+        height: 20vh;
         margin-top: 10vh;
         display: flex;
-        width: 210vw;
+        width: 275vw;
         justify-content:center;
         align-items: center;
     
@@ -269,8 +386,9 @@
     
     .detailsparaone{
         /* border: 2px solid black; */
-        width: 150vw;
-        font-size: 1.5em;
+        width: 200vw;
+        font-size: 2em;
+        overflow: hidden;
         margin: auto;
     }
     .detaisheadingone{
@@ -279,25 +397,122 @@
     
     .btngoback{
         position: relative;
-        left: 50vw;
+        left: 80vw;
         top: 5vh;
+        height: 15vh;
       
         width: 100vw;
     }
     .footermain {
-        /* background-image: linear-gradient(rgb(173, 247, 211),rgb(193, 229, 239));  */
         background-color: rgba(0, 0, 0, 0.742);
-        height: 25vh;
+        height: 35vh;
+        width: 290vw;
         border-radius: 5px;
         display: flex;
         justify-content: center;
-        /* align-items: start; */
-        gap: 10px; 
+        align-items: center;
+        gap: 10px;
         position: relative;
-        top: 10vh;
-        width: 216vw;
+    
+        top: 8vh;
+        border: 2px solid black;
+       
         
      } 
+    
+     .logosdtl {
+        position: relative;
+        top:0vh;
+        left: 45vw;
+        /* border: 2px solid black; */
+        height: 8vh;
+    }
+    
+    .gotonavdtl {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 55vw;
+        width: 40vh;
+        /* height: 10vh; */
+        top: -2vh;
+    
+        /* border: 2px solid black; */
+    
+    }
+    
+    .logoonedtl {
+        height: 5vh;
+        position: relative;
+        left: -0.4vw;
+        top: 1vh;
+    
+    }
+    
+    .logo {
+        height: 8vh;
+        /* width: vw; */
+    
+    }
+    
+    .location {
+        position: absolute;
+        left: 5vw;
+        top: 4vh;
+    }
+    
+    .locdtl {
+        font-weight: bold;
+        position: absolute;
+        top: 5vh;
+        left: 15vw;
+        color: whitesmoke;
+    
+    }
+    
+    .logoonephonedtl {
+        height: 4vh;
+        position: relative;
+        right: 127vw;
+        top: 0vh;
+        /* border: 5px solid black; */
+        color: aliceblue;
+        background-color: aqua;
+    
+    
+    }
+    
+    .phodtl {
+        font-weight: bold;
+        position: absolute;
+        top: 15vh;
+        left: 15vw;
+    
+        color: whitesmoke;
+    
+    }
+    
+    .logoonemaildtl {
+        height: 5vh;
+        position: relative;
+        right: 138vw;
+        top: 8vh;
+        color: red;
+    }
+    
+    .emaildtl {
+        font-weight: bold;
+        position: absolute;
+        color: whitesmoke;
+        top: 24vh;
+        left: 15vw
+    }
+    
+    
+    
+    
+    
+    
 
    
      }
@@ -306,6 +521,11 @@
 
      @media screen and (min-width:500px) and (max-width:800px){
 
+        .dtltwo{
+            /* border: 2px solid black; */
+            width: 240vw;
+        }
+
         .main{
             display: flex;
             justify-content: center;
@@ -313,19 +533,26 @@
             flex-direction: row;
             /* border: 2px solid black; */
             margin-top: 20px;
-            width: 150vw;
+            width: 260vw;
+            position: relative;
+            left: 10vw;
         }
         .detailinnerdiv{
             /* border: 10px solid black; */
         }
         .detailsimage{
             height: 40vh;
+           width: 250vw;
+            position: relative;
+            top: 5vh;
            
         }
         .dtl{
             /* border: 2px solid black; */
             border-radius: 20px;
-            width: 90vw;
+            width: 150vw;
+            /* height: 120vh; */
+          
            
             background-image: linear-gradient(rgb(91, 224, 162), rgb(159, 158, 244));
         }
@@ -333,22 +560,23 @@
             box-shadow: 2px 2px 20px black;
         }
         .dtlimage{
-            height: 40vh;
-            width: 90vw;
+            height: 70vh;
+            width: 149vw;
             border-radius: 20px;
         }
         .detailpara{
-            width: 90vw;
+            width: 140vw;
             /* border: 2px solid black; */
             font-weight: bold;
             position: relative;
             font-size: 2em;
-            left: 1vw;
-            text-align: center;
+            left: 5vw;
+            /* text-align: center; */
         }
         .detailheading{
             /* border: 2px solid black; */
             text-align: center;
+            font-size: 4em;
         
         
         }
@@ -358,7 +586,9 @@
             flex-direction:column;
             /* border: 2px solid black; */
             margin-top: 5vh;
-            width: 150vw;
+            width: 260vw;
+            position: relative;
+            left: 10vw;
             
         
         }
@@ -366,7 +596,7 @@
         
         .detailsimage{
             border-radius: 20px;
-            width: 150vw;
+            width: 200vw;
             height: 80vh;
         }
         .btngoback{
@@ -377,7 +607,7 @@
         }
         .innerman{
             /* border: 2px solid black; */
-            width: 40vw;
+            width: 60vw;
             
             height: 10vh;
         }
@@ -387,15 +617,17 @@
             width: 12vw;
             border-radius: 50%;
             background-color: brown;
-            border: 2px solid black;
+            /* border: 2px solid black; */
             float: left;
         }
         .parent{
             /* border: 2px solid black; */
-            height: 15vh;
+            height: 25vh;
             margin-top: 2vh;
+            position: relative;
+            left: 10vw;
             display: flex;
-            width: 150vw;
+            width: 260vw;
             justify-content:center;
             align-items: center;
         
@@ -433,98 +665,138 @@
         }
         .detailsparaone{
             /* border: 2px solid black; */
-            width: 150vw;
-            font-size:2em;
+            width: 200vw;
+            font-size:3em;
             margin: auto;
+            font-weight: bold;
         }
         .detaisheadingone{
-            font-size: 3em;
+            font-size: 5em;
         }
         
         .btngoback{
             position: relative;
-            left: 25vw;
+            left: 60vw;
             top: 5vh;
-          
+          height: 15vh;
             width: 100vw;
         }
+        
+
         .footermain {
-            /* background-image: linear-gradient(rgb(173, 247, 211),rgb(193, 229, 239));  */
             background-color: rgba(0, 0, 0, 0.742);
-            height: 25vh;
+            height: 36.8vh;
             border-radius: 5px;
             display: flex;
+            width: 280vw;
+
             justify-content: center;
-          width: 152vw;
-            gap: 10px; 
+            align-items: center;
+            gap: 10px;
             position: relative;
+        
             top: 10vh;
+            /* border: 2px solid black; */
            
             
          } 
-
-
-
-         .pho {
-            font-weight: bold;
-            position: absolute;
-            top: 15vh;
-            left: 53vh;
-            color: whitesmoke;
         
-        }
-        
-        .mail {
-            position:absolute;
-            left: 60vw;
-           
-            top: 20vh;
-        }
-        
-        .email {
-            font-weight: bold;
-            position: absolute;
-            color: whitesmoke;
-            top: 20vh;
-            left:53vh;
-        
-        }
-
-        /* .logoone {
-            height: 4vh;
+         .logosdtl {
             position: relative;
-            left: 10vh;
+          
+            top:0vh;
+            left: 35vw;
+            /* border: 2px solid black; */
+            height: 8vh;
+        }
         
-        } */
+        .gotonavdtl {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            left: 60vw;
+            width: 40vh;
+            font-size: 1.7em;
+            /* height: 10vh; */
+            top: 2vh;
+        
+            /* border: 2px solid black; */
+        
+        }
+        
+        .logoonedtl {
+            height: 5vh;
+            position: relative;
+            left: -0.4vw;
+            top: 1vh;
+        
+        }
+        
+        .logo {
+            height: 8vh;
+            /* width: vw; */
+        
+        }
         
         .location {
             position: absolute;
-            left: 60vw;
-            top: 10vh;
+            left: 5vw;
+            top: 4vh;
         }
         
-        .loc {
+        .locdtl {
             font-weight: bold;
             position: absolute;
-            top: 10vh;
-            left: 53vh;
+            font-size: 2em;
+            top: 5vh;
+            left: 15vw;
             color: whitesmoke;
         
         }
         
-        .phone {
-            position: absolute;
-            left: 60vw;
-            top: 15vh;
+        .logoonephonedtl {
+            height: 4vh;
+            position: relative;
+            right: 126vw;
+            top: -2vh;
+            /* border: 5px solid black; */
+            color: aliceblue;
+            background-color: aqua;
+        
         
         }
-        .box{
-            position: relative;;
-            left: 20vw;
-            font-size: 1.5em;
-            width: 120vw;
-           
+        
+        .phodtl {
+            font-size: 2em;
+            font-weight: bold;
+            position: absolute;
+            top: 13vh;
+            left: 15vw;
+        
+            color: whitesmoke;
+        
         }
+        
+        .logoonemaildtl {
+            height: 5vh;
+            position: relative;
+            right: 133vw;
+            top: 5vh;
+            color: red;
+        }
+        
+        .emaildtl {
+            font-weight: bold;
+            position: absolute;
+            color: whitesmoke;
+            font-size: 2em;
+            top: 20vh;
+            left: 15vw
+        }
+        
+        
+        
+        
         
         
         }

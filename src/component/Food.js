@@ -43,7 +43,7 @@ function Food() {
                             <div key={index} className="underdivtwofood">
                                 <h1 className="underdivheadingtwofood">{item.name}</h1>
                                 <NavLink className='navlinktwo' to={`/details/${item.id}` }>   <img className="underdivimagetwofood" src={item.image} alt="error"/></NavLink>
-                                <p className="underdivparatwofood" >{item.para.slice(0, 105)}... <h3>{index +1}</h3></p>
+                                <p className="underdivparatwofood" >{item.para.slice(0, 105)}... <span>{index +1}</span></p>
 
 
                             </div>

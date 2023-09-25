@@ -51,7 +51,7 @@ function FitNess(){
                             <div key={index} className="underdivtwofit">
                                 <h1 className="underdivheadingtwofit">{item.name.slice(0,10)}...</h1>
                                 <NavLink className='navlinktwo' to={`/details/${item.id}` }>    <img className="underdivimagetwofit" src={item.image} alt="Not Found"/></NavLink>
-                                <p className="underdivparatwofit" >{item.para.slice(0, 105)}... <h3>{index +1}</h3></p>
+                                <p className="underdivparatwofit" >{item.para.slice(0, 105)}... <span>{index +1}</span></p>
 
 
                             </div>

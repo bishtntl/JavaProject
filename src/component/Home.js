@@ -98,7 +98,7 @@ function HomeCompo() {
                                     <div className="data">
                                         <span className="headingtwo">{item.name.slice(0, 15)}</span>
                                         <NavLink className='navlinktwo' to={`/details/${item.id}` }>         <img src={item.image} className="imagetwo" alt="Not Found"/></NavLink>
-                                        <p className="paratwo">{item.para.slice(0, 100)}... <h3  className="number">{index +1}</h3></p>
+                                        <p className="paratwo">{item.para.slice(0, 100)}... <span  className="number">{index +1}</span></p>
 
                                     </div>
                                 </div>
