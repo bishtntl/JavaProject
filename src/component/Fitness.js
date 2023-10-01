@@ -35,7 +35,7 @@ function FitNess(){
                     {fitdata.filter((item) => item.category==='Fitness').map((item, index) => {
                         return (
                             <div key={index} className="fitunderdiv">
-                                <h1 className="underdivheadingfit">{item.name.slice(0,15)}...</h1>
+                                <h1 className="underdivheadingfit">{item.name.slice(0,10)}</h1>
                                 <NavLink className='navlinktwo' to={`/details/${item.id}` }>   <img src={item.image} className="underdivimagefit" alt="Not Found" /></NavLink>
                                 <p className="underdivparafit">{item.para.slice(0, 400)}</p>
                             </div>

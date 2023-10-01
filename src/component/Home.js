@@ -10,22 +10,25 @@ function HomeCompo() {
     return (
         <>
             <div className="top">
-                <div >
-                    {datahome.filter((item) => item.id === 76).map((item, index) => {
+            <div className="onetwo">
+                    {datahome.filter((item) => item.id === 77).map((item, index) => {
                         return (
                             <div key={index} >
-
-                              <img src={item.image} className="imagetopone" alt="Not Found"/>  
+                                <img src={item.image} className="imagetoptwo" alt="Not Found" />
                             </div>
                         )
 
                     })}
                 </div>
-                <div>
-                    {datahome.filter((item) => item.id === 77).map((item, index) => {
+                
+                <div className="midtop">
+               
+                <div  >
+                    {datahome.filter((item) => item.id === 76).map((item, index) => {
                         return (
                             <div key={index} >
-                                <img src={item.image} className="imagetoptwo" alt="Not Found" />
+
+                              <img src={item.image} className="imagetopone" alt="Not Found"/>  
                             </div>
                         )
 
@@ -40,6 +43,7 @@ function HomeCompo() {
                         )
 
                     })}
+                </div>
                 </div>
             </div>
             <h1 className="latest">The Latest</h1>
@@ -75,7 +79,7 @@ function HomeCompo() {
                                     <div className="datatwo">
 
 
-                                        <span className="headingone">{item.name.slice(0, 20)}</span>
+                                        <span className="headingone">{item.name.slice(0,10)}...44</span>
 
                                         <span className="paraone">{item.para.slice(0, 225)}...</span>
                                         <NavLink className='navlinktwo' to={`/details/${item.id}` }>     <img src={item.image} className="imageone" alt="Not Found"/></NavLink>
@@ -96,7 +100,7 @@ function HomeCompo() {
                                 <div key={index} className="ddddd">
 
                                     <div className="data">
-                                        <span className="headingtwo">{item.name.slice(0, 15)}</span>
+                                        <span className="headingtwo">{item.name.slice(0, 10)}</span>
                                         <NavLink className='navlinktwo' to={`/details/${item.id}` }>         <img src={item.image} className="imagetwo" alt="Not Found"/></NavLink>
                                         <p className="paratwo">{item.para.slice(0, 100)}... <span  className="number">{index +1}</span></p>
 

@@ -28,7 +28,7 @@ function TechCompo() {
                     {techdata.filter((item) => item.category === 'Technology').map((item, index) => {
                         return (
                             <div key={index} className="techunderdiv">
-                                <h1 className="underdivheadingtech">{item.name.slice(0,14)}..</h1>
+                                <h1 className="underdivheadingtech">{item.name.slice(0,10)}..</h1>
                                < NavLink className='navlinktwo' to={`/details/${item.id}` }>     <img src={item.image} className="underdivimagetech" alt="Not Found"/></NavLink>
                                 <p className="underdivparatech">{item.para.slice(0, 400)}</p>
                             </div>

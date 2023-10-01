@@ -31,7 +31,7 @@ function HollyWood() {
                     {hollydata.filter((item) => item.category === 'Hollywood').map((item, index) => {
                         return (
                             <div key={index} className="hollyunderdiv">
-                               <h1 className="underdivheading">{item.name}</h1>  
+                               <h1 className="underdivheading">{item.name.slice(0,10)}</h1>  
                                <NavLink className='navlinktwo' to={`/details/${item.id}` }>       <img src={item.image} className="underdivimage" alt="Not Found"/></NavLink>
                                 <p className="underdivpara">{item.para.slice(0,400)}</p>
                             </div>

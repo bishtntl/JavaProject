@@ -21,7 +21,9 @@ function Display() {
     return (
         <>
             <div className="navbar">
+              <div className="navtwo">
                 <span className="route">The</span><span className="siren">Siren</span>
+                </div>
 
 
 

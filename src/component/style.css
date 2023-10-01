@@ -1,25 +1,17 @@
-.box{
-   
-}
 .main{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    /* border: 2px solid black; */
     margin-top: 20px;
 }
-.detailinnerdiv{
-    /* border: 10px solid black; */
-}
+
 .detailsimage{
     height: 40vh;
    
 }
 .dtl{
-    /* border: 2px solid black; */
-    border-radius: 20px;
-   
+    border-radius: 20px;   
     background-image: linear-gradient(rgb(91, 224, 162), rgb(159, 158, 244));
 }
 .dtl:hover{
@@ -32,26 +24,19 @@
 }
 .detailpara{
     width: 30vw;
-    /* border: 2px solid black; */
     font-weight: bold;
     position: relative;
     left: 1vw;
     text-align: center;
 }
 .detailheading{
-    /* border: 2px solid black; */
     text-align: center;
-
-
 }
 
 .detailsthree{
     display: flex;
     flex-direction: row;
-    /* border: 2px solid black; */
     margin-top: 5vh;
-    
-
 }
 
 
@@ -66,7 +51,6 @@
     background-color: blue;
 }
 .innerman{
-    /* border: 2px solid black; */
     width: 20vw;
     
     height: 10vh;
@@ -76,11 +60,9 @@
     width: 4vw;
     border-radius: 50%;
     background-color: brown;
-    /* border: 2px solid black; */
     float: left;
 }
 .parent{
-    /* border: 2px solid black; */
     height: 15vh;
     width: 80vw;
     margin-top: 2vh;
@@ -136,10 +118,10 @@
  } 
 
  .logosdtl {
+    display: flex;
     position: relative;
     top:0vh;
     left: 15vw;
-    /* border: 2px solid black; */
     height: 8vh;
 }
 
@@ -243,98 +225,66 @@
 
 
 
-@media screen and (min-width:300px) and (max-width:500px){
+@media screen and (min-width:375px) and (max-width:667px){
 
     .main{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: row;
-        /* border: 2px solid black; */
-        margin-top: 20px;
-        width: 250vw;
+        border: 2px solid black;
+        width: 90vw;
        position: relative;
-       left: 10vw;
-        /* margin: auto; */
+       left: 3vw;
     }
-    .detailinnerdiv{
-        /* border: 10px solid black; */
-    }
+    
     .detailsimage{
-        height: 65vh;
-        width: 150vw;
+        height: 55vh;
+        width: 40vw;
        
     }
     .dtl{
-        /* border: 2px solid black; */
-        border-radius: 20px;
-        width: 150vw;
-       
-        background-image: linear-gradient(rgb(91, 224, 162), rgb(159, 158, 244));
-    }
-    .dtl:hover{
-        box-shadow: 2px 2px 20px black;
+        width: 99vw;
     }
     .dtlimage{
         height: 50vh;
-        width: 150vw;
+        width: 99vw;
         border-radius: 20px;
     }
+    
     .detailpara{
-        width: 140vw;
-        /* border: 2px solid black; */
+        width: 90vw;
         font-weight: bold;
         position: relative;
         left: 4vw;
-        text-align: center;
         font-size: 1.5em;
     }
+    
     .detailheading{
-        /* border: 2px solid black; */
         text-align: center;
     
     
     }
     .dtltwo{
-        width: 220vw;
-        /* border: 2px solid black; */
+        width: 90vw;
+        border: 2px solid black;
     }
     
     .detailsthree{
-        display: flex;
         flex-direction: column;
-
-        /* border: 2px solid black; */
-        margin-top: 5vh;
-        width: 250vw;
-        position: relative;
-        left: 10vw;
-        
-    
+        width: 99vw;
     }
     
     
     .detailsimage{
         border-radius: 20px;
-        width: 220vw;
+        width: 90vw;
     }
-    .btngoback{
-        width: 20vw;
-    }
-    .btngoback:hover{
-        background-color: blue;
-    }
+   
     .innerman{
-        /* border: 2px solid black; */
-        width: 20vw;
-        
+        width: 20vw;      
         height: 10vh;
     }
 
     .innerman{
-        /* border: 2px solid black; */
-        width: 80vw;
-        
+        width: 80vw;   
         height: 15vh;
     }
     .men{
@@ -342,18 +292,12 @@
         width: 15vw;
         border-radius: 50%;
         background-color: brown;
-        /* border: 2px solid black; */
         float: left;
     }
     .parent{
-        /* border: 2px solid black; */
-        height: 20vh;
         margin-top: 10vh;
-        display: flex;
-        width: 275vw;
-        justify-content:center;
-        align-items: center;
-    
+        width: 99vw;
+        margin-left: -15vw;
     }
     .balam{
         font-weight: bold;
@@ -374,20 +318,17 @@
     }
     .logodtl{
         height: 10vh;
-        width: 15vw;
+        width: 12vw;
     }
     .outerlogo{
-        /* border: 2px solid black; */
         width: 80vw;
-        height: 15vh;
         float: right;
     
     }
     
     .detailsparaone{
-        /* border: 2px solid black; */
-        width: 200vw;
-        font-size: 2em;
+        width: 85vw;
+        font-size: 1.5em;
         overflow: hidden;
         margin: auto;
     }
@@ -397,61 +338,40 @@
     
     .btngoback{
         position: relative;
-        left: 80vw;
+        left: 10vw;
         top: 5vh;
-        height: 15vh;
-      
-        width: 100vw;
+        height: 10vh;
+        width: 80vw;
     }
     .footermain {
         background-color: rgba(0, 0, 0, 0.742);
         height: 35vh;
-        width: 290vw;
-        border-radius: 5px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
+        width: 100vw;
         position: relative;
-    
-        top: 8vh;
-        border: 2px solid black;
-       
-        
+        top: 8vh;    
      } 
     
      .logosdtl {
+        flex-direction: column;
         position: relative;
-        top:0vh;
-        left: 45vw;
-        /* border: 2px solid black; */
+        top:-10vh;
+        left: 28vw;
         height: 8vh;
     }
     
     .gotonavdtl {
-        display: flex;
         flex-direction: column;
         position: relative;
-        left: 55vw;
-        width: 40vh;
-        /* height: 10vh; */
-        top: -2vh;
-    
-        /* border: 2px solid black; */
-    
+        left: 15vw;
+        width: 18vh;
+        top: 1vh;    
     }
     
     .logoonedtl {
-        height: 5vh;
+        height: 4vh;
         position: relative;
-        left: -0.4vw;
+        left: -2vw;
         top: 1vh;
-    
-    }
-    
-    .logo {
-        height: 8vh;
-        /* width: vw; */
     
     }
     
@@ -465,17 +385,17 @@
         font-weight: bold;
         position: absolute;
         top: 5vh;
-        left: 15vw;
+        left: 11vw;
         color: whitesmoke;
+        font-size: 0.8em;
     
     }
     
     .logoonephonedtl {
-        height: 4vh;
+        height: 3vh;
         position: relative;
-        right: 127vw;
+        right: 34vw;
         top: 0vh;
-        /* border: 5px solid black; */
         color: aliceblue;
         background-color: aqua;
     
@@ -485,19 +405,18 @@
     .phodtl {
         font-weight: bold;
         position: absolute;
-        top: 15vh;
-        left: 15vw;
-    
+        top: 15.5vh;
+        left: 11vw;
+        font-size: 0.8em;
         color: whitesmoke;
     
     }
     
     .logoonemaildtl {
-        height: 5vh;
+        height: 3vh;
         position: relative;
-        right: 138vw;
+        right: 42vw;
         top: 8vh;
-        color: red;
     }
     
     .emaildtl {
@@ -505,41 +424,23 @@
         position: absolute;
         color: whitesmoke;
         top: 24vh;
-        left: 15vw
+        font-size: 0.5em;
+        left: 11vw
     }
-    
-    
-    
-    
-    
-    
-
-   
      }
 
 
 
-     @media screen and (min-width:500px) and (max-width:800px){
+     @media screen and (min-width:665px) and (max-width:1000px){
 
         .dtltwo{
-            /* border: 2px solid black; */
-            width: 240vw;
+            width: 90vw;
         }
 
-        .main{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: row;
-            /* border: 2px solid black; */
-            margin-top: 20px;
-            width: 260vw;
-            position: relative;
-            left: 10vw;
+        .main{      
+            width: 99vw;
         }
-        .detailinnerdiv{
-            /* border: 10px solid black; */
-        }
+        
         .detailsimage{
             height: 40vh;
            width: 250vw;
@@ -548,56 +449,38 @@
            
         }
         .dtl{
-            /* border: 2px solid black; */
             border-radius: 20px;
-            width: 150vw;
-            /* height: 120vh; */
-          
-           
+            width: 90vw;  
             background-image: linear-gradient(rgb(91, 224, 162), rgb(159, 158, 244));
         }
-        .dtl:hover{
-            box-shadow: 2px 2px 20px black;
-        }
+    
         .dtlimage{
-            height: 70vh;
-            width: 149vw;
+            height: 50vh;
+            width: 90vw;
             border-radius: 20px;
         }
         .detailpara{
-            width: 140vw;
-            /* border: 2px solid black; */
+            width: 88vw;
             font-weight: bold;
             position: relative;
             font-size: 2em;
-            left: 5vw;
-            /* text-align: center; */
+           
         }
         .detailheading{
-            /* border: 2px solid black; */
             text-align: center;
-            font-size: 4em;
-        
-        
+            font-size: 4em;     
         }
         
         .detailsthree{
-            display: flex;
             flex-direction:column;
-            /* border: 2px solid black; */
-            margin-top: 5vh;
-            width: 260vw;
-            position: relative;
-            left: 10vw;
-            
-        
+            width: 99vw;
         }
         
         
         .detailsimage{
             border-radius: 20px;
-            width: 200vw;
-            height: 80vh;
+            width: 90vw;
+            height: 60vh;
         }
         .btngoback{
             width: 20vw;
@@ -606,39 +489,26 @@
             background-color: blue;
         }
         .innerman{
-            /* border: 2px solid black; */
-            width: 60vw;
-            
+            width: 60vw;    
             height: 10vh;
         }
         .men{
             height: 8vh;
-
             width: 12vw;
             border-radius: 50%;
             background-color: brown;
-            /* border: 2px solid black; */
             float: left;
         }
-        .parent{
-            /* border: 2px solid black; */
-            height: 25vh;
-            margin-top: 2vh;
+        .parent{         
             position: relative;
-            left: 10vw;
-            display: flex;
-            width: 260vw;
-            justify-content:center;
-            align-items: center;
-        
+            left: 0vw;          
+            width: 99vw;
         }
         .balam{
             font-weight: bold;
             position: relative;
             left:2vw;
-            font-size: 1.5em;
-          
-            
+            font-size: 1.5em;   
         }
         .read{
             position: relative;
@@ -654,19 +524,17 @@
         }
         .logodtl{
             height: 10vh;
-            width: 12vw;
+            width: 10vw;
         }
         .outerlogo{
-            /* border: 2px solid black; */
-            width: 50vw;
+            width: 55vw;
             height: 10vh;
             float: right;
         
         }
         .detailsparaone{
-            /* border: 2px solid black; */
-            width: 200vw;
-            font-size:3em;
+            width: 80vw;
+            font-size:2em;
             margin: auto;
             font-weight: bold;
         }
@@ -676,37 +544,26 @@
         
         .btngoback{
             position: relative;
-            left: 60vw;
+            left: 0vw;
             top: 5vh;
-          height: 15vh;
-            width: 100vw;
+          height: 10vh;
+            width: 60vw;
         }
         
 
         .footermain {
             background-color: rgba(0, 0, 0, 0.742);
-            height: 36.8vh;
-            border-radius: 5px;
-            display: flex;
-            width: 280vw;
-
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-            position: relative;
-        
-            top: 10vh;
-            /* border: 2px solid black; */
-           
-            
+            height: 39vh; 
+            width: 100vw;          
+            position: relative;       
+            top: 10vh;            
          } 
         
          .logosdtl {
-            position: relative;
-          
-            top:0vh;
-            left: 35vw;
-            /* border: 2px solid black; */
+            flex-direction: column;
+            position: relative;         
+            top:-12vh;
+            left: 25vw;
             height: 8vh;
         }
         
@@ -714,27 +571,17 @@
             display: flex;
             flex-direction: column;
             position: relative;
-            left: 60vw;
-            width: 40vh;
+            left: 20vw;
+            width: 18vh;
             font-size: 1.7em;
-            /* height: 10vh; */
             top: 2vh;
-        
-            /* border: 2px solid black; */
-        
         }
         
         .logoonedtl {
             height: 5vh;
             position: relative;
-            left: -0.4vw;
+            left: -2vw;
             top: 1vh;
-        
-        }
-        
-        .logo {
-            height: 8vh;
-            /* width: vw; */
         
         }
         
@@ -747,9 +594,9 @@
         .locdtl {
             font-weight: bold;
             position: absolute;
-            font-size: 2em;
-            top: 5vh;
-            left: 15vw;
+            font-size: 1.5em;
+            top: 5.5vh;
+            left: 11vw;
             color: whitesmoke;
         
         }
@@ -757,9 +604,8 @@
         .logoonephonedtl {
             height: 4vh;
             position: relative;
-            right: 126vw;
+            right: 36vw;
             top: -2vh;
-            /* border: 5px solid black; */
             color: aliceblue;
             background-color: aqua;
         
@@ -767,11 +613,11 @@
         }
         
         .phodtl {
-            font-size: 2em;
+            font-size: 1.5em;
             font-weight: bold;
             position: absolute;
-            top: 13vh;
-            left: 15vw;
+            top: 15vh;
+            left: 11vw;
         
             color: whitesmoke;
         
@@ -780,18 +626,17 @@
         .logoonemaildtl {
             height: 5vh;
             position: relative;
-            right: 133vw;
-            top: 5vh;
-            color: red;
+            right: 43.5vw;
+            top: 8vh;
         }
         
         .emaildtl {
             font-weight: bold;
             position: absolute;
             color: whitesmoke;
-            font-size: 2em;
-            top: 20vh;
-            left: 15vw
+            font-size: 1em;
+            top: 25vh;
+            left: 11vw
         }
         
         
