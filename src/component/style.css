@@ -482,9 +482,6 @@
             width: 90vw;
             height: 60vh;
         }
-        .btngoback{
-            width: 20vw;
-        }
         .btngoback:hover{
             background-color: blue;
         }
