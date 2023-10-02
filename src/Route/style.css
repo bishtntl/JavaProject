@@ -2080,7 +2080,7 @@
     .lochome {
         position: absolute;
         top: 5.5vh;
-        left: 6vw;
+        left: 8vw;
         color: whitesmoke;
         font-size: 0.6em;
 
@@ -2089,14 +2089,14 @@
     .logoonephonehome {
         height: 2.5vh;
         position: relative;
-        right: 45vw;
+        right: 43vw;
         top: 14vh;
         color: aliceblue;
     }
 
     .phohome {
         top: 14vh;
-        left: 6vw;
+        left: 8vw;
         color: whitesmoke;
         font-size: 0.6em;   
     }
@@ -2104,7 +2104,7 @@
     .logoonemailhome {
         height: 3vh;
         position: relative;
-        right: 53vw;
+        right: 51vw;
         top: 22vh;
     }
 
@@ -2112,7 +2112,7 @@
         position: absolute;
         color: whitesmoke;
         top: 22.5vh;
-        left: 6vw;
+        left: 8vw;
         font-size: 0.5em;
     }
 
@@ -2302,7 +2302,7 @@
     .logooneholly {
         height: 3vh;
         position: relative;
-        left: -3vw;
+        left: -3.5vw;
         top: 1vh;
     }
 
@@ -2324,7 +2324,7 @@
     .logoonephoneholly {
         height: 2.5vh;
         position: relative;
-        right: 43vw;
+        right: 41.5vw;
         top: 13vh;
         color: aliceblue;
         background-color: aqua;
@@ -2344,7 +2344,7 @@
     .logoonemailholly {
         height: 3vh;
         position: relative;
-        right: 50vw;
+        right: 49vw;
         top: 20vh;
     }
 
@@ -2534,7 +2534,7 @@
     .logoonebolly {
         height: 3vh;
         position: relative;
-        left: -1vw;
+        left: -3vw;
         top: 1vh;
 
     }
@@ -2782,7 +2782,7 @@
     .logoonephonefood {
         height: 3vh;
         position: relative;
-        right: 27vw;
+        right: 24.5vw;
         top: vh;
         color: aliceblue;
         background-color: aqua;
@@ -2801,7 +2801,7 @@
     .logoonemailfood {
         height: 3vh;
         position: relative;
-        right: 35vw;
+        right: 33.5vw;
         top: 8vh;
     }
 
@@ -2984,7 +2984,7 @@
     .logoonefit {
         height: 3vh;
         position: relative;
-        left: -2vw;
+        left: -3vw;
         top: 1vh;
 
     }
@@ -3008,7 +3008,7 @@
     .logoonephonefit {
         height: 2.5vh;
         position: relative;
-        right: 39vw;
+        right: 37vw;
         top: 0vh;
         color: aliceblue;
     }
@@ -3025,7 +3025,7 @@
     .logoonemailfit {
         height: 2.5vh;
         position: relative;
-        right: 46vw;
+        right: 45vw;
         top: 10vh;
     }
 
@@ -3203,7 +3203,7 @@
 
     .footertech {
         background-color: rgba(0, 0, 0, 0.742);
-        height: 34vh;
+        height: 40vh;
         width: 99vw;
     }
 
@@ -3211,6 +3211,7 @@
         height: 3vh;
         position: relative;  
         top: 2vh;
+        left: -3.5vw;
     }
 
     .location {
@@ -3218,12 +3219,13 @@
         left: 3vw;
         top: 4vh;
     }
+   
 
     .loctech {
         font-weight: bold;
         position: absolute;
         top: 6vh;
-        left: 12vw;
+        left: 9vw;
         font-size: 0.6em;
         color: whitesmoke;
     }
@@ -3231,7 +3233,7 @@
     .logoonephone {
         height: 3vh;
         position: relative;
-        right: 37vw;
+        right: 44.5vw;
         top: 22vh;
         color: aliceblue;
         background-color: aqua;
@@ -3241,7 +3243,7 @@
         font-weight: bold;
         position: absolute;
         top: 22.5vh;
-        left: 12vw;
+        left: 10vw;
         font-size: 0.6em;
         color: whitesmoke;
     }
@@ -3249,7 +3251,7 @@
     .logoonemail {
         height: 3vh;
         position: relative;
-        right: 45vw;
+        right: 54vw;
         top: 14vh;
     }
 
@@ -3258,8 +3260,8 @@
         position: absolute;
         color: whitesmoke;
         font-size: 0.6em;
-        top: 14vh;
-        left: 12vw
+        top: 14.5vh;
+        left: 9vw
     }
 
     .logostech {
@@ -3273,8 +3275,8 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        left: 14vw;
-        width: 25vw;
+        left: 8vw;
+        width: 15vw;
         height: 8vh;
         top: 1vh;
 

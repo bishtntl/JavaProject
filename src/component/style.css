@@ -229,10 +229,9 @@
 
     .main{
         flex-direction: row;
-        border: 2px solid black;
         width: 90vw;
        position: relative;
-       left: 3vw;
+       left: 5vw;
     }
     
     .detailsimage{
@@ -259,12 +258,11 @@
     
     .detailheading{
         text-align: center;
-    
+       
     
     }
     .dtltwo{
         width: 90vw;
-        border: 2px solid black;
     }
     
     .detailsthree{
@@ -345,7 +343,7 @@
     }
     .footermain {
         background-color: rgba(0, 0, 0, 0.742);
-        height: 35vh;
+        height: 38vh;
         width: 100vw;
         position: relative;
         top: 8vh;    
@@ -355,7 +353,7 @@
         flex-direction: column;
         position: relative;
         top:-10vh;
-        left: 28vw;
+        left: 22vw;
         height: 8vh;
     }
     
@@ -363,7 +361,7 @@
         flex-direction: column;
         position: relative;
         left: 15vw;
-        width: 18vh;
+        width: 10vh;
         top: 1vh;    
     }
     
@@ -394,8 +392,8 @@
     .logoonephonedtl {
         height: 3vh;
         position: relative;
-        right: 34vw;
-        top: 0vh;
+        right: 41vw;
+        top: -2vh;
         color: aliceblue;
         background-color: aqua;
     
@@ -415,8 +413,8 @@
     .logoonemaildtl {
         height: 3vh;
         position: relative;
-        right: 42vw;
-        top: 8vh;
+        right: 50vw;
+        top: 6vh;
     }
     
     .emaildtl {
@@ -429,6 +427,7 @@
     }
      }
 
+    
 
 
      @media screen and (min-width:665px) and (max-width:1000px){
